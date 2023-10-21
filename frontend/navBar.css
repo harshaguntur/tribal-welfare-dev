@@ -1,7 +1,6 @@
 body{
-    background-color:lightgrey;
+    background-color:whitesmoke;
 } 
-
 .rectangle{
     margin-top: 10px;
     margin-left: auto;
@@ -20,7 +19,6 @@ li {
 li a {
     color: black;
     font-size: 20px;
-    font-weight: bold;
     margin-right: 25px;
 }
 
@@ -51,13 +49,11 @@ nav{
     border:566666cm;
     text-decoration: none;
     border: 2px solid transparent;
-    font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
 }
 
 button a{
- font-weight: bold;
     font-size: 17px;
 }
 
@@ -71,26 +67,4 @@ header{
     height: 60px;
     width: 60px;
     margin-left: -25px;
-}
-
-body{
-    background-color:lightgray
-} 
-
-.Quote{
-    width: 250px;
-    margin-top: 300px;
-    position: absolute;
-    left: 8%;
-}
-
-.rec1{
-    height: 125px;
-    width: 250px;
-    background-color: green;
-    margin-right: 50px;
-    margin-top: 30px;
-    padding-right: 10px;
-    position: absolute;
-    left: 75%;
 }
