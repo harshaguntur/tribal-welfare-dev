@@ -1,0 +1,81 @@
+body{
+    background-color:lightgray
+} 
+
+.rectangle{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 1200px;
+    background-color:white;
+    border-radius: 50px;
+}
+
+.Quote{
+    width: 250px;
+    margin-top: 200px;
+    position: absolute;
+    left: 8%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 3px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__links{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.button{
+    margin-right: -25px;
+    background-color: #000000;
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+button a{
+ font-weight: bold;
+    font-size: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: -25px;
+}
