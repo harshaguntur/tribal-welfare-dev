@@ -1,6 +1,8 @@
 body{
+    /* Change color according to your background */
     background-color:whitesmoke;
 } 
+
 .rectangle{
     margin-top: 10px;
     margin-left: auto;

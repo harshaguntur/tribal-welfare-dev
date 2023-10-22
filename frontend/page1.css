@@ -1,5 +1,6 @@
 body{
-    background-color:lightgrey;
+    /* Bg color not yet confirmed */
+    background-color: rgb(245, 230, 207);
 } 
 
 .rectangle{
@@ -25,6 +26,7 @@ li a {
 }
 
 nav{
+    /* font-family: Not yet decided; */
     display: flex;
     width: 84%;
     margin: auto ;
@@ -57,7 +59,7 @@ nav{
 }
 
 button a{
- font-weight: bold;
+    font-weight: bold;
     font-size: 17px;
 }
 
@@ -73,24 +75,116 @@ header{
     margin-left: -25px;
 }
 
-body{
-    background-color:lightgray
-} 
-
 .Quote{
+    /* font-family: Not yet decided; */
     width: 250px;
     margin-top: 300px;
     position: absolute;
     left: 8%;
 }
 
-.rec1{
-    height: 125px;
-    width: 250px;
-    background-color: green;
-    margin-right: 50px;
-    margin-top: 30px;
-    padding-right: 10px;
+.rect1{
+    margin-top: 15px;
     position: absolute;
-    left: 75%;
+    left: 67%;
+}
+
+.rect2{
+    margin-top: 15px;
+    position: absolute;
+    left: 48%;
+}
+
+.img2{ 
+    border-top-left-radius: 80%;
+    border-bottom-right-radius: 75%;
+}
+
+.rect3{
+    margin-top: 215px;
+    position: absolute;
+    left: 48%;
+}
+
+.circle{
+    margin-top: 215px;
+    position: absolute;
+    left: 78.2%;
+}
+
+.imgcir{
+    border-radius: 50%;
+}
+
+.rect4{
+    margin-top: 415px;
+    position: absolute;
+    left: 48%;
+}
+
+.img4{
+    border-bottom-left-radius: 65%;
+}
+
+.rect5{
+    height: 180px;
+    width: 65px;
+    /* color not fixed */
+    background-color: rgb(107, 102, 102);
+    margin-top: 415px;
+    position: absolute;
+    left: 67%;
+}
+
+.rect6{
+    height: 180px;
+    width: 65px;
+    /* Color not fixed */
+    background-color: olivedrab;
+    margin-top: 415px;
+    position: absolute;
+    left: 71.8%;
+}
+
+.rect7{
+    height: 180px;
+    width: 220px;
+    /* Color not fixed */
+    background-color: darkgreen;
+    margin-top: 415px;
+    position: absolute;
+    left: 76.6%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.textbox{
+    width: 450px;
+    margin-top: 595px;
+    position: absolute;
+    left: 8%;
+}
+
+h2{
+    /* Font not yet decided */
+}
+
+.button1{
+    margin-top: 775px;
+    left: 8%;
+    position: absolute;
+    /* Color not yet decided */
+    background-color: rgb(11, 56, 11);
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+button1 a{
+    /* font-size: Not yet decided;
+    font-family: Not yet decided; */
 }
