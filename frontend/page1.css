@@ -1,6 +1,6 @@
 body{
     /* Bg color not yet confirmed */
-    background-color: rgb(241, 236, 228);
+    background-color: rgb(223, 220, 215);
 } 
 
 .rectangle{
@@ -77,6 +77,7 @@ header{
 
 .Quote{
     /* font-family: Not yet decided; */
+    font-family: 'Space Grotesk',sans-serif;
     width: 250px;
     margin-top: 300px;
     position: absolute;
@@ -163,6 +164,9 @@ header{
     margin-top: 595px;
     position: absolute;
     left: 8%;
+    font-weight:300;
+    font-size:x-large;
+    font-family: 'Lato',sans-serif;
 }
 
 h2{
@@ -174,14 +178,15 @@ h2{
     left: 8%;
     position: absolute;
     /* Color not yet decided */
-    background-color: rgb(11, 56, 11);
+    background-color:  rgb(32, 105, 60);
     color: white;
     border:566666cm;
     text-decoration: none;
     border: 2px solid transparent;
-    font-weight: bold;
+    font-weight: 100;
     padding: 10px 25px;
     border-radius: 30px;
+    font-family: 'Lalo',sans-serif;
 }
 
 button1 a{
