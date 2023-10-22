@@ -1,5 +1,4 @@
 body{
-    /* Bg color not yet confirmed */
     background-color:whitesmoke;
 } 
 
@@ -26,7 +25,6 @@ li a {
 }
 
 nav{
-    /* font-family: Not yet decided; */
     display: flex;
     width: 84%;
     margin: auto ;
@@ -76,7 +74,6 @@ header{
 }
 
 .Quote{
-    /* font-family: Not yet decided; */
     font-family: 'Space Grotesk',sans-serif;
     width: 250px;
     margin-top: 300px;
@@ -130,7 +127,6 @@ header{
 .rect5{
     height: 180px;
     width: 65px;
-    /* color not fixed */
     background-color: rgb(168, 207, 230);
     margin-top: 415px;
     position: absolute;
@@ -140,7 +136,6 @@ header{
 .rect6{
     height: 180px;
     width: 65px;
-    /* Color not fixed */
     background-color:rgb(27, 63, 41);
     margin-top: 415px;
     position: absolute;
@@ -150,7 +145,6 @@ header{
 .rect7{
     height: 180px;
     width: 220px;
-    /* Color not fixed */
     background-color: rgb(32, 105, 60);
     margin-top: 415px;
     position: absolute;
@@ -175,7 +169,6 @@ header{
     margin-top: 775px;
     left: 8%;
     position: absolute;
-    /* Color not yet decided */
     background-color:  rgb(32, 105, 60);
     color: white;
     border:566666cm;
