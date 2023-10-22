@@ -1,6 +1,6 @@
 body{
     /* Bg color not yet confirmed */
-    background-color: rgb(245, 230, 207);
+    background-color: rgb(241, 236, 228);
 } 
 
 .rectangle{
@@ -130,7 +130,7 @@ header{
     height: 180px;
     width: 65px;
     /* color not fixed */
-    background-color: rgb(107, 102, 102);
+    background-color: rgb(168, 207, 230);
     margin-top: 415px;
     position: absolute;
     left: 67%;
@@ -140,7 +140,7 @@ header{
     height: 180px;
     width: 65px;
     /* Color not fixed */
-    background-color: olivedrab;
+    background-color:rgb(27, 63, 41);
     margin-top: 415px;
     position: absolute;
     left: 71.8%;
@@ -150,7 +150,7 @@ header{
     height: 180px;
     width: 220px;
     /* Color not fixed */
-    background-color: darkgreen;
+    background-color: rgb(32, 105, 60);
     margin-top: 415px;
     position: absolute;
     left: 76.6%;
