@@ -1,6 +1,6 @@
 body{
     /* Bg color not yet confirmed */
-    background-color: rgb(223, 220, 215);
+    background-color:whitesmoke;
 } 
 
 .rectangle{
@@ -169,9 +169,7 @@ header{
     font-family: 'Lato',sans-serif;
 }
 
-h2{
-    /* Font not yet decided */
-}
+
 
 .button1{
     margin-top: 775px;
@@ -189,7 +187,3 @@ h2{
     font-family: 'Lalo',sans-serif;
 }
 
-button1 a{
-    /* font-size: Not yet decided;
-    font-family: Not yet decided; */
-}
