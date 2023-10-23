@@ -79,13 +79,15 @@ header{
 .rect1{
     margin-top: 150px;
     margin-left: 60px;
-    height: 85px;
-    width: 425px;
+    height: 70px;
+    width: 380px;
     background-color:rgb(74, 74, 133);
     border-radius: 50px;
     outline-style: solid;
     outline-color: #000000;
     position: absolute;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 .rect2{
@@ -138,7 +140,7 @@ header{
 
 .textbox1{
     width: 350px;
-    top: 300px;
+    top: 200px;
     margin-left: 100px;
     background-color: rgb(74, 74, 133);
     position: relative;

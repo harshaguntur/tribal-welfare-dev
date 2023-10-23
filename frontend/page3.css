@@ -1,0 +1,229 @@
+body{
+    background-color:whitesmoke;
+} 
+
+.rectangle{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 1200px;
+    background-color:white;
+    border-radius: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 3px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__links{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.button{
+    margin-right: -25px;
+    background-color: #000000;
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+button a{
+    font-size: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: -25px;
+}
+
+.rect1{ 
+    top: 13%;
+    left: 5%;
+    height: 750px;
+    width: 1200px;
+    background-color: rgb(133, 133, 204);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: absolute;
+}
+
+.bgrect{
+    margin-top: 165px;
+    height: 900px;
+    width: 100%;
+    background-color: rgb(18, 59, 36);
+}
+
+.head{
+    top: 20%;
+    left: 5%;
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    padding-left: 125px;
+    font-size: xx-large;
+}
+
+.bgrect1{
+    top: 176.5%;
+    height: 100px;
+    width: 1327px;
+    background-color: rgb(18, 59, 36);
+    position: absolute;
+}
+
+.fullLogo{
+    height: 175px;
+    width: 150px;
+    position: absolute;
+    top: 910px;
+    left: 7%;
+}
+
+.td1{
+    top: 890px;
+    left: 28%;
+    height: 175px;
+    width: 150px;
+    position: absolute;
+    color: white;
+    line-height: 2;
+}
+
+.td2{
+    top: 890px;
+    left: 43%;
+    height: 175px;
+    width: 150px;
+    position: absolute;
+    color: white;
+    line-height: 2;
+}
+
+.td3{
+    top: 890px;
+    left: 63%;
+    height: 175px;
+    width: 200px;
+    position: absolute;
+    color: white;
+    line-height: 2;
+}
+
+.td4{
+    top: 890px;
+    left: 83%;
+    height: 175px;
+    width: 100px;
+    position: absolute;
+    color: white;
+    line-height: 2;
+}
+
+a:link{
+    color: white;
+    size: 20px;
+    text-decoration: none;
+}
+
+.out{
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.button1{
+    top: 725px;
+    left: 50%;
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 100;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-family: 'Lalo',sans-serif;
+    text-align: center;
+}
+
+.input1{
+    top: 150px;
+    left: 43%;
+    position: absolute;
+} 
+
+.input2{
+    top: 150px;
+    left: 70%;
+    position: absolute;
+} 
+
+.input3{
+    top: 295px;
+    left: 43%;
+    position: absolute;
+} 
+
+.input4{
+    top: 295px;
+    left: 70%;
+    position: absolute;
+} 
+
+.input5{
+    top: 440px;
+    left: 43%;
+    position: absolute;
+} 
+
+input{
+    outline: 0;
+    border-width: 0 0 3px;
+    width: 200px;
+    padding: 12px 20px;
+    background-color: rgb(133, 133, 204);
+    border-color: blueviolet;
+}
+
+.link{
+    top: 590px;
+    left: 43%;
+    position: absolute;
+}
