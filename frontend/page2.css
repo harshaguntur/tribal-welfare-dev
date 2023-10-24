@@ -1,0 +1,207 @@
+body{
+    /* Change color according to your background */
+    background-color: lightgray;
+} 
+
+.rectangle{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 1200px;
+    background-color:white;
+    border-radius: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 3px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__links{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.button{
+    margin-right: -25px;
+    background-color: #000000;
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+button a{
+    font-size: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: -25px;
+}
+
+.heading{
+    position: absolute;
+    left: 6%;
+}
+
+.rect1{
+    margin-top: 150px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.rect2{
+    margin-top: 240px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.rect3{
+    margin-top: 330px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.rect4{
+    margin-top: 420px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.rect5{
+    margin-top: 510px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.textbox1{
+    width: 350px;
+    top: 300px;
+    margin-left: 100px;
+    background-color: rgb(74, 74, 133);
+    position: relative;
+    color: black;
+    text-align: start;
+}
+
+.rect6{
+    margin-top: 150px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.rect7{
+    margin-top: 240px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.rect8{
+    margin-top: 330px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.rect9{
+    margin-top: 420px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
+
+.rect10{
+    margin-top: 510px;
+    margin-left: 60px;
+    height: 85px;
+    width: 425px;
+    background-color:rgb(74, 74, 133);
+    border-radius: 50px;
+    outline-style: solid;
+    outline-color: #000000;
+    position: absolute;
+}
