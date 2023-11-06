@@ -1,0 +1,3 @@
+backend : node js
+    framework : express 
+    dependencies/packages : express body-parser cors bcrypt axios ;
