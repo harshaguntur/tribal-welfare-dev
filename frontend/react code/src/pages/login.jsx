@@ -1,4 +1,4 @@
-import '../css/loginPage.css'
+import '../css/login.css'
 
 
 
