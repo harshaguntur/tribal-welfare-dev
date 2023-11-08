@@ -1,5 +1,5 @@
 import '../css/login.css'
-
+import {Link,NavLink} from "react-router-dom";
 
 
 const Login = () => {
@@ -36,7 +36,26 @@ const Login = () => {
       </div>
       <span className="span">Forgot password?</span>
     </div>
+    
+
+
+
+    <Link to="/Home2">
     <button className="button-submit">Sign In</button>
+    </Link>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <p className="p">Dont have an account? <span className="span">Sign Up</span>
 
     </p><p className="p line">Or With</p>
