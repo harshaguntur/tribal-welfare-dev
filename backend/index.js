@@ -1,5 +1,5 @@
 import  express  from "express";
-import LoginRouter from "./Routes/LoginRoute.js";
+import LoginRouter from "./Routes/HomeRoute.js";
 import RegisterRouter from "./Routes/RegisterRoute.js"
 import ConnectDB from "./DB/ConnectDB.js";
 
@@ -13,8 +13,9 @@ const app = express();
 //used to access data from frontend 
 app.use(express.json());
 //router function implement 
-app.use("/",LoginRouter);
-app.use("/register",RegisterRouter);
+app.use("/api",LoginRouter);
+app.use("/api/SignUp",RegisterRouter);
+app.use("/api/SignIn",RegisterRouter);
 
 
 
