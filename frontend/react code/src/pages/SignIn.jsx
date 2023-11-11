@@ -5,7 +5,7 @@ export const SignIn = () => {
     <>
 
     <h1>SignIn</h1>
-    <p id="start">Enter your details to get started</p>
+    <p id='start'>Enter your details to get started</p>
 
     <div className="email">
       <h3> Email<form>*</form></h3>
@@ -19,8 +19,8 @@ export const SignIn = () => {
 
     <button type="search"> Signin </button>
 
-    <p id="end">By continuing, you are agreeing to the <br/><a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</p>
-
+    <p id='end'>By continuing, you are agreeing to the <br/><a href='#'>Terms and Conditions</a> and <a href='#'>Privacy Policy</a>.</p>
+  
     </>
   )
 
