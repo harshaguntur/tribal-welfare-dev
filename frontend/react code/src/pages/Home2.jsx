@@ -3,7 +3,8 @@ const Home2 = () => {
 
     <>
     
-    <h1>Home2</h1>
+    <h1>Bannu </h1> 
+    
     
     </>
 
