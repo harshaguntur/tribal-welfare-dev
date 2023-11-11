@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#start{
+    font-size: 2vw;
+    font-weight: lighter;
+}
+
+.email{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.password{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h3{
+    size: 20%;
+    display: flex;
+}
+
+form{
+    justify-content: flex-end;
+    color: red;
+}
+
+input{
+    border-radius: 7px;
+    border-color: black;
+    width: 60vw;
+    height: 3vw;
+}
+
+button{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 7px;
+    width: 60.5vw;
+    height: 3.5vw;
+    background-color: red;
+    color: white;
+    border: none;
+    size: 2vw;
+}
+
+#end{
+    margin-top: 3%;
+    font-size: 1.25vw;
+    font-weight: lighter;
+}
+
+#end a{
+    color: black;
+}
