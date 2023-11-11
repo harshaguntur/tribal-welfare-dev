@@ -43,29 +43,7 @@ const Signup = () => {
 
   return (
     <>
-      <div>
-        <form onSubmit={handelFormSubmit}>
-          <input
-            type="text"
-            placeholder="username"
-            
-            onChange={handelUsername}
-          />
-          <input      
-            type="email"
-            placeholder="email"
-
-            onChange={handelUsermail}
-          />
-          <input
-            type="password"
-            placeholder="password"
-
-            onChange={handelUserpassword}
-          />
-          <button type="submit">Submit </button>
-        </form>
-      </div>
+      
     </>
   );
 };
