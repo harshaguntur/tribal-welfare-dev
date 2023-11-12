@@ -43,8 +43,12 @@ const Signup = () => {
 
   return (
     <>
-      
-    </>
+      <p>
+
+        This is the best ting in  the world 
+
+      </p> 
+   </>
   );
 };
 export default Signup;
