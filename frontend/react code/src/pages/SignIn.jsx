@@ -3,30 +3,39 @@ export const SignIn = () => {
  
   return (
     <>
-      <div className='outer-div'>
+     
+     <div className="outerdiv">
+        <img src="../../public/images/logo bgremove.png" alt="" id="logo" />
 
-    <h1>SignIn</h1>
-    <p id='start'>Enter your details to get started</p>
-
-    <form action="" id='signIn-form'>
-
-    <div className="email">
-      <h3> Email<span className='star'>*</span></h3>
-      <input autoFocus placeholder="Email" type="text"/>
-    </div>
         
-    <div className="password">
-        <h3> Password<span className='star'>*</span></h3>
-        <input placeholder="Password"  type="password"/>
+
+        <div className="container">
+        <form>
+            <label>Email*</label> <br/>
+            <input type="email" autoFocus placeholder="" className="input"/> <br/>
+            <label>Password*</label> <br/>
+            <input type="password" placeholder="" className="input"/> <br/>
+
+           <input type="submit" value="Signin" className="input btn"/> 
+           
+        </form>
+
+           <div className="para">
+            <p>
+              By continuing you are agreeing to the <br/>
+              <span>
+                <a href="#">Terms and conditions</a>
+              </span>
+              and
+              <span>
+                <a href="#"> Privacy Policy </a>
+              </span>
+            </p>
+          </div>
+        </div>
     </div>
 
-    <button id='SignIn-btn'> Signin </button>
 
-    </form>
-
-    <p id='end'>By continuing, you are agreeing to the <br/><a href='#'>Terms and Conditions</a> and <a href='#'>Privacy Policy</a>.</p>
-  
-      </div>
     </>
   )
 
