@@ -1,0 +1,178 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.signup-box{
+    width: 360px;
+    height:620px ;
+    border: 1px black solid;
+    display: flex;
+    background-color: white ;
+    border-radius: 3px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4 
+{
+    text-align: center;
+}
+form{
+    width :300px;
+    margin-left: 20px;
+} 
+
+form label{
+    display: flex;
+    margin-top:20px;
+    font-size: 18px;
+}
+form input {
+    width:100%;
+    padding: 7px;
+    border:none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width:320px;
+    height:35px;
+    margin-top:20px;
+    border: none;
+    background-color: rgb(252, 10, 10);
+    color: white;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color :white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para-2 a{
+    color: #000000;
+}
+
+
+#signin-btn{
+    width: 90%;
+    margin: 0;
+    height: 3vh;
+    
+}
+
+
+#SignIn-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#SignIn-div button {
+    width:320px;
+    height:35px;
+    margin-top:20px;
+    border: none;
+    background-color: rgb(252, 10, 10);
+    color: white;
+    font-size: 18px;
+} */
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer-div{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: crimson; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+#logo{
+    height: 10vw;
+    width: 10vw;
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+form{
+    padding: 1vw 2vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    width: 100%;
+    border: none;
+    line-height: 0%;
+    font-size: medium;
+}
+
+
+.btn{
+    color: white;
+    background-color: #2CBE64;
+
+}
+
+
+
+
+
+#SignIn-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.para {
+    /* margin-top: 2vw; */
+    padding: 10%;
+    word-spacing: 3px;
+    display: flex;
+}
+
+.para a {
+    color: #2CBE64;
+
+}
+
+
+
+
+

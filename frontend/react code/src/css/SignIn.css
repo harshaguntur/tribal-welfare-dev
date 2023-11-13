@@ -1,6 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
 h1{
     text-align: center;
 }
+
+#signIn-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 
 p{
     text-align: center;
@@ -26,7 +50,7 @@ h3{
     display: flex;
 }
 
-form{
+.star{
     justify-content: flex-end;
     color: red;
 }
@@ -38,18 +62,30 @@ input{
     height: 3vw;
 }
 
-button{
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+.outer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#SignIn-btn{
+    width: 100%;
+
+    
     border-radius: 7px;
-    width: 60.5vw;
+   
     height: 3.5vw;
     background-color: red;
     color: white;
     border: none;
     size: 2vw;
+
 }
+
+
+
 
 #end{
     margin-top: 3%;
@@ -59,4 +95,13 @@ button{
 
 #end a{
     color: black;
+}
+
+
+@media (max-width:600px) {
+    .outer-div{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
 }
