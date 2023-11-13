@@ -1,10 +1,13 @@
 import axios from "axios";
 import "../css/SignUp.css";
 
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink ,useNavigate} from "react-router-dom";
 import { useState } from "react";
 
+
+
 const Signup = () => {
+  const navigate = useNavigate();
   const [username, SetUsername] = useState();
   const [email, SetEmail] = useState();
   const [password, SetPassword] = useState();
@@ -33,10 +36,10 @@ const Signup = () => {
       password,
     });
 
-    let res;
+    navigate("/");
 
-    axios.get("/api/Signup").then((Response) => (res = Response));
-    console.log(res);
+    
+
   };
 
   return (
@@ -54,10 +57,15 @@ const Signup = () => {
             <input type="email" placeholder="" className="input" onChange={handelUsermail} /> <br />
             <label>Password*</label> <br />
             <input type="password" placeholder="" className="input" onChange={handelUserpassword}/> <br />
-            <input type="submit" value="Signup" className="input btn" /> <br />
+
+           <input type="submit" value="Signup" className="input btn" /> 
+
+          
+           <br />
+           
             <div id="SignIn-div">
               <p>Already have an Account ?</p>
-              <input type="button" value="SignIn" className="input btn" />
+              <input type="button" value="SignIn" className="input btn"  onClick={()=> navigate("/signin")}/>
             </div>
           </form>
 
