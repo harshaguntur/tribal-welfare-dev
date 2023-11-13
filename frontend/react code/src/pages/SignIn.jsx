@@ -14,15 +14,16 @@ export const SignIn = () => {
         <img src="../../public/images/logo bgremove.png" alt="" id="logo" />
         <div className="container">
         <form>
-            <label>Email*</label> <br/>
+            <label>Email<div className="red">*</div></label> <br/>
             <input type="email" autoFocus placeholder="" className="input"/> <br/>
-            <label>Password*</label> <br/>
+
+            <label>Password<div className="red">*</div></label> <br/>
             <input type="password" placeholder="" className="input"/> <br/>
 
-           <input type="submit" value="Signin" className="input btn"/> 
+           <input type="submit" value="SignIn" className="input btn"/> 
            
            <div id="SignIn-div">
-              <p>Don't have an account ?</p>
+              <p><br/>Don't have an Account ?</p>
               <input type="button" value="SignUp" className="input btn"  onClick={()=> navigate("/signup")}/>
             </div>
 

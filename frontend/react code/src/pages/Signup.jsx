@@ -51,16 +51,16 @@ const Signup = () => {
 
         <div className="container">
           <form onSubmit={handelFormSubmit}>
-            <label>Username*</label> <br />
-            <input type="useranme" placeholder="" className="input" onChange={handelUsername}/> <br />
-            <label>Email*</label> <br />
+            <label>Username<div className="red">*</div></label> <br />
+            <input type="useranme" autoFocus placeholder="" className="input" onChange={handelUsername}/> <br />
+
+            <label>Email<div className="red">*</div></label> <br />
             <input type="email" placeholder="" className="input" onChange={handelUsermail} /> <br />
-            <label>Password*</label> <br />
+
+            <label>Password<div className="red">*</div></label> <br />
             <input type="password" placeholder="" className="input" onChange={handelUserpassword}/> <br />
 
-           <input type="submit" value="Signup" className="input btn" /> 
-
-          
+           <input type="submit" value="SignUp" className="input btn" /> 
            <br />
            
             <div id="SignIn-div">
@@ -75,7 +75,7 @@ const Signup = () => {
               <span>
                 <a href="#">Terms and conditions</a>
               </span>{" "}
-              and
+              and 
               <span>
                 <a href="#"> Privacy Policy </a>
               </span>

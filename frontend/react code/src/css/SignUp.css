@@ -36,6 +36,7 @@ form{
 }
 
 .input{
+    padding: 1em;
     width: 100%;
     border: none;
     line-height: 0%;
@@ -63,4 +64,12 @@ form{
 
 .para a {
     color: #2CBE64;
+}
+
+.red{
+    color: red;
+}
+
+label{
+    display: flex;
 }

@@ -44,7 +44,6 @@ form{
     background-color: white;
 }
 
-
 .btn{
     color: white;
     background-color: #2CBE64;
@@ -61,7 +60,10 @@ form{
     color: #2CBE64;
 }
 
+.red{
+    color: red;
+}
 
-
-
-
+label{
+    display: flex;
+}
