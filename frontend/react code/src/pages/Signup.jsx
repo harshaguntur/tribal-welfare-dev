@@ -94,7 +94,7 @@ const Signup = () => {
 
         <div id="SignIn-div">
         <p>Already have an Account ?</p>
-        <input type="button" value="Signup" className="input btn"/> 
+        <input type="button" value="SignIn" className="input btn"/> 
       </div>
 
 
