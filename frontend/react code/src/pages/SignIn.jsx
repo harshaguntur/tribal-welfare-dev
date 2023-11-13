@@ -3,7 +3,7 @@ export const SignIn = () => {
  
   return (
     <>
-      <div className='outer-div'>
+    <div className='outer-div'>
 
     <h1>SignIn</h1>
     <p id='start'>Enter your details to get started</p>
@@ -26,7 +26,7 @@ export const SignIn = () => {
 
     <p id='end'>By continuing, you are agreeing to the <br/><a href='#'>Terms and Conditions</a> and <a href='#'>Privacy Policy</a>.</p>
   
-      </div>
+    </div>
     </>
   )
 
