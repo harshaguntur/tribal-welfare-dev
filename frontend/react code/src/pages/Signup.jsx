@@ -47,16 +47,17 @@ const Signup = () => {
      
 
       <div className="outer-div">
-        <img src="../../public/images/logo bgremove.png" alt="" id="logo" />
+        <img src="../../images/logo bgremove.png" alt="" id="logo" />
 
         <div className="container">
           <form onSubmit={handelFormSubmit}>
             <label>Username*</label> <br />
-            <input type="useranme" placeholder="" className="input" onChange={handelUsername}/> <br />
+            <input type="useranme" placeholder="" className="input" onChange={handelUsername}  required/> <br />
             <label>Email*</label> <br />
-            <input type="email" placeholder="" className="input" onChange={handelUsermail} /> <br />
+            
+            <input type="email" placeholder="" className="input" onChange={handelUsermail} required/> <br />
             <label>Password*</label> <br />
-            <input type="password" placeholder="" className="input" onChange={handelUserpassword}/> <br />
+            <input type="password" placeholder="" className="input" onChange={handelUserpassword} required /> <br />
 
            <input type="submit" value="Signup" className="input btn" /> 
 

@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react';
 import '../css/SignIn.css'
 import { Link, NavLink ,useNavigate} from "react-router-dom";
 
@@ -7,17 +8,35 @@ export const SignIn = () => {
  
   const navigate = useNavigate();
 
+
+  const userRef = useRef();
+  const errRef = useRef();
+
+
+  const [user,setUser] = useState('');
+  const [pwd,setPwd] = useState('');
+  const [errMsg,setErrMsg] = useState('');
+  const [success,setSuccess] = useState(false);
+
+  useEffect(()=>{
+    userRef.current.focus();
+  },[user,pwd])
+
+  useEffect(()=>{
+      setErrMsg('');
+  },[user,pwd]) 
+
   return (
     <>
      
      <div className="outerdiv">
-        <img src="../../public/images/logo bgremove.png" alt="" id="logo" />
+        <img src="../../images/logo bgremove.png" alt="" id="logo" />
         <div className="container">
         <form>
             <label>Email*</label> <br/>
-            <input type="email" autoFocus placeholder="" className="input"/> <br/>
+            <input type="email" ref={userRef} autoFocus placeholder="" className="input" required/> <br/>
             <label>Password*</label> <br/>
-            <input type="password" placeholder="" className="input"/> <br/>
+            <input type="password" placeholder="" className="input" required/> <br/>
 
            <input type="submit" value="Signin" className="input btn"/> 
            

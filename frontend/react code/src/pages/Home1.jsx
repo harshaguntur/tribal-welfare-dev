@@ -8,7 +8,7 @@ const Home1 = () => {
     <div className="rectangle">
         <div className="navbar">
         <nav>
-            <img src="../images/Vana.jpeg" alt="logo" className="logo"/>
+            <img src="../../images/logo bgremove.png" alt="logo" className="logo"/>
             <h1 style={{marginLeft : "-17%"}}>VANA EKAM</h1>
             <img src=""/>
             <ul  className="nav__links">
