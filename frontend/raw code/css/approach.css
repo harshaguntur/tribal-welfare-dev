@@ -1,0 +1,132 @@
+body{
+    /* Change color according to your background */
+    background-color: #bcd1ec;
+} 
+
+.rectangle{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 1200px;
+    background-color:white;
+    border-radius: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 3px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__links{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.button{
+    margin-right: -25px;
+    background-color: #000000;
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+button a{
+    font-size: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: -25px;
+}
+.approach {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 430px;
+    margin-right: 2%;
+     padding-top: 0.1px;
+     padding-bottom:none ;
+     padding-left:none ;
+     padding-right:none;
+    height: 6vh;
+    width: 9vw;
+    background-color:white;
+    border-top-right-radius:  20px;
+    letter-spacing: 1px;
+}
+.approach a{
+    font-size: 17px;
+}
+.matter{
+    font-family: "Lucida Console ","Courier new",monospace;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 44px;
+    margin-left:233px ;
+    margin-right:460px ;
+}
+.op {
+    font-family:sans-serif ;
+    background-color: #1b2f26;
+    color: #ffffff;
+    margin-top: 33px;
+    margin-left: 400px;
+    padding-left: 56px;
+    padding-top: 50px;
+    height: 30vh;
+    letter-spacing: 5px;
+    border-top-right-radius: 100px;
+    width: 70vw;
+}
+.benefits{
+    background-color: #f3f3fb;
+    margin-top: px;
+}
+.name
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-left: 400px;
+    margin-top: 20px;
+    height: 5vh;
+    width: 9vw;
+    border-top-right-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
