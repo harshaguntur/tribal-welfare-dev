@@ -2,106 +2,68 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-
+    background-color: whitesmoke;
 }
 
-
-body{
+.outerdiv{
     display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: crimson; */
     align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    /* justify-content: center; */
+    flex-direction: column;
 }
 
-h1{
-    text-align: center;
+#logo{
+    height: 15vw;
+    width: 15vw;
 }
 
-#signIn-form{
+.container{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+form{
+    padding: 1vw 2vw;
+    width: 30vw;
     display: flex;
     flex-direction: column;
-    
 }
 
-
-p{
-    text-align: center;
+.input{
+    width: 100%;
+    height: 6vh;
+    border: none;
+    font-size: medium;
+    background-color: white;
 }
 
-#start{
-    font-size: 2vw;
-    font-weight: lighter;
+.btn{
+    color: white;
+    background-color: #2CBE64;
 }
 
-.email{
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-.password{
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-h3{
-    size: 20%;
+.para {
+    /* margin-top: 2vw; */
+    padding: 10%;
+    word-spacing: 3px;
     display: flex;
 }
 
-.star{
-    justify-content: flex-end;
+.para a {
+    color: #2CBE64;
+}
+
+.red{
     color: red;
 }
 
-input{
-    border-radius: 7px;
-    border-color: black;
-    width: 60vw;
-    height: 3vw;
-}
-
-.outer-div{
+label{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#SignIn-btn{
-    width: 100%;
-
-    
-    border-radius: 7px;
-   
-    height: 3.5vw;
-    background-color: red;
-    color: white;
-    border: none;
-    size: 2vw;
-
-}
-
-
-
-
-#end{
-    margin-top: 3%;
-    font-size: 1.25vw;
-    font-weight: lighter;
-}
-
-#end a{
-    color: black;
-}
-
-
-@media (max-width:600px) {
-    .outer-div{
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-    }
 }

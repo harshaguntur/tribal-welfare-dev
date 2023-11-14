@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: whitesmoke;
 }
 
-.outer-div{
+.outerdiv{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     /* background-color: crimson; */
     align-items: center;
     /* justify-content: center; */
@@ -15,8 +16,8 @@
 }
 
 #logo{
-    height: 7vw;
-    width: 7vw;
+    height: 15vw;
+    width: 15vw;
 }
 
 .container{
@@ -36,28 +37,22 @@ form{
 }
 
 .input{
-    padding: 1em;
     width: 100%;
+    height: 6vh;
     border: none;
-    line-height: 0%;
     font-size: medium;
+    background-color: white;
 }
+
 
 .btn{
     color: white;
     background-color: #2CBE64;
-
-}
-
-#SignIn-div{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 }
 
 .para {
     /* margin-top: 2vw; */
-    padding: 0% 10%;
+    padding: 10%;
     word-spacing: 3px;
     display: flex;
 }
@@ -66,10 +61,7 @@ form{
     color: #2CBE64;
 }
 
-.red{
-    color: red;
-}
 
-label{
-    display: flex;
-}
+
+
+

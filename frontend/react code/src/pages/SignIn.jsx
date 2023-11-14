@@ -1,32 +1,48 @@
 import '../css/SignIn.css'
+import { Link, NavLink ,useNavigate} from "react-router-dom";
+
+
+
 export const SignIn = () => {
  
+  const navigate = useNavigate();
+
   return (
     <>
-      <div className='outer-div'>
+     
+     <div className="outerdiv">
+        <img src="../../public/images/logo bgremove.png" alt="" id="logo" />
+        <div className="container">
+        <form>
+            <label>Email<div className="red">*</div></label> <br/>
+            <input type="email" autoFocus placeholder="" className="input"/> <br/>
 
-    <h1>SignIn</h1>
-    <p id='start'>Enter your details to get started</p>
+            <label>Password<div className="red">*</div></label> <br/>
+            <input type="password" placeholder="" className="input"/> <br/>
 
-    <form action="" id='signIn-form'>
+           <input type="submit" value="SignIn" className="input btn"/> 
+           
+           <div id="SignIn-div">
+              <p><br/>Don't have an Account ?</p>
+              <input type="button" value="SignUp" className="input btn"  onClick={()=> navigate("/signup")}/>
+            </div>
 
-    <div className="email">
-      <h3> Email<span className='star'>*</span></h3>
-      <input autoFocus placeholder="Email" type="text"/>
+        </form>
+
+           <div className="para">
+            <p>
+              By continuing you are agreeing to the <br/>
+              <span>
+                <a href="#">Terms and conditions </a>
+              </span>
+              and
+              <span>
+                <a href="#"> Privacy Policy </a>
+              </span>
+            </p>
+          </div>
+        </div>
     </div>
-        
-    <div className="password">
-        <h3> Password<span className='star'>*</span></h3>
-        <input placeholder="Password"  type="password"/>
-    </div>
-
-    <button id='SignIn-btn'> Signin </button>
-
-    </form>
-
-    <p id='end'>By continuing, you are agreeing to the <br/><a href='#'>Terms and Conditions</a> and <a href='#'>Privacy Policy</a>.</p>
-  
-      </div>
     </>
   )
 
