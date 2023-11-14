@@ -33,15 +33,23 @@ export const SignIn = () => {
         <img src="../../images/logo bgremove.png" alt="" id="logo" />
         <div className="container">
         <form>
+<<<<<<< HEAD
             <label>Email*</label> <br/>
             <input type="email" ref={userRef} autoFocus placeholder="" className="input" required/> <br/>
             <label>Password*</label> <br/>
             <input type="password" placeholder="" className="input" required/> <br/>
+=======
+            <label>Email<div className="red">*</div></label> <br/>
+            <input type="email" autoFocus placeholder="" className="input"/> <br/>
 
-           <input type="submit" value="Signin" className="input btn"/> 
+            <label>Password<div className="red">*</div></label> <br/>
+            <input type="password" placeholder="" className="input"/> <br/>
+>>>>>>> 51477ae9279fdadcc6129b8c7fe43ad2eab11b39
+
+           <input type="submit" value="SignIn" className="input btn"/> 
            
            <div id="SignIn-div">
-              <p>Don't have an account ?</p>
+              <p><br/>Don't have an Account ?</p>
               <input type="button" value="SignUp" className="input btn"  onClick={()=> navigate("/signup")}/>
             </div>
 
