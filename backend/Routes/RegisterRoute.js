@@ -1,14 +1,14 @@
 import express from 'express';
-import { Register } from '../controllers/user.js';
+import { Register } from '../controllers/Register.js';
 
 
 
-const router = express.Router();
+const RegisterRouter = express.Router();
 
-router.post("",Register);
+RegisterRouter.post("",Register);
 
 
-export default router;
+export default RegisterRouter;
 
 
 

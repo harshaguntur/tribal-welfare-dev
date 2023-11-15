@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import '../css/SignIn.css'
 import { Link, NavLink ,useNavigate} from "react-router-dom";
+import axios from 'axios';
 
 
 
@@ -8,23 +9,23 @@ export const SignIn = () => {
  
   const navigate = useNavigate();
 
+  const [email,setEmail] = useState('');
+  const [password,setPassword] = useState('');
+ 
+  const handelEmail = (e)=>{
+     
+      setEmail(e.target.value);
+  }
+  const handelPassword = (e)=>{
+      setPassword(e.target.value);
+  }
 
-  const userRef = useRef();
-  const errRef = useRef();
-
-
-  const [user,setUser] = useState('');
-  const [pwd,setPwd] = useState('');
-  const [errMsg,setErrMsg] = useState('');
-  const [success,setSuccess] = useState(false);
-
-  useEffect(()=>{
-    userRef.current.focus();
-  },[user,pwd])
-
-  useEffect(()=>{
-      setErrMsg('');
-  },[user,pwd]) 
+  const handelFormSubmit = ()=>{
+    axios.post("/api/SignIn",{
+      email, 
+      password,
+    });
+  }
 
   return (
     <>
@@ -32,12 +33,12 @@ export const SignIn = () => {
      <div className="outerdiv">
         <img src="../../images/logo bgremove.png" alt="" id="logo" />
         <div className="container">
-        <form>
+        <form onSubmit={handelFormSubmit}>
 
             <label>Email*</label> <br/>
-            <input type="email" ref={userRef} autoFocus placeholder="" className="input" required/> <br/>
+            <input type="email" onChange={handelEmail} autoFocus placeholder="" className="input" required/> <br/>
             <label>Password*</label> <br/>
-            <input type="password" placeholder="" className="input" required/> <br/>
+            <input type="password" onChange={handelPassword} placeholder="" className="input" required/> <br/>
 
 
 

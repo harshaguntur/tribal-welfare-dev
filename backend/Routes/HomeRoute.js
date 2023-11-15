@@ -2,9 +2,9 @@ import express from "express";
 import User from "../DB/models/user.model.js";
 
 
-const router = express.Router();
+const HomeRouter = express.Router();
 
-router.get("/",(req,res)=>{
+HomeRouter.get("/",(req,res)=>{
     res.send("Home page ");
 })
 
@@ -12,4 +12,4 @@ router.get("/",(req,res)=>{
 
 
 
-export default router;
+export default HomeRouter;
