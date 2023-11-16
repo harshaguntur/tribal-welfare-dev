@@ -6,10 +6,26 @@ export const Login = async (req,res)=>{
     const {email,password} = req.body;
     console.log(email);
     try {
-       const user =  User.findOne(({email}));
-       console.log(user);
+       const user =  await User.findOne(({email}));
+      if(password === user.password){
+            res.send({
+                username : "true",
+                password : "true"
+            });
+      }
+      else{
+        res.send({
+            username : "true",
+            password : "false"
+        })
+      }
+      
+      if(!user){
+        res.send({username : "false"});
+      }
+
     } catch (error) {
-        console.log(error);
-    }
+        res.send({username : "false"});
+    }                  
     
 }                            
