@@ -8,7 +8,7 @@ const UnderGoingProjects = () => {
     e.preventDefault();
     const formData = new FormData();
     formData.append("image", image);
-    console.log(formData);
+
     await axios.post("/api/AddUnderGoingProjects", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     });
@@ -19,7 +19,7 @@ const UnderGoingProjects = () => {
     setImage(e.target.files[0]); 
   };
 
-  
+
   
   return (
     <>

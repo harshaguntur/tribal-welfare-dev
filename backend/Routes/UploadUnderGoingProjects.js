@@ -23,7 +23,7 @@ const upload = multer({ storage: storage });
 UnderGoingProjectsRouter.post("",upload.single("image"),async(req,res)=>{
     
     const imageName = req.file.filename;
-    console.log(imageName);
+
     try {
       await UnderGoingDB.create({ image: imageName });
     } catch (error) {
