@@ -1,13 +1,17 @@
-import axios from "axios"
+
 
 const PhotoDelete = () => {
   
-  const data = axios.get("");
+
   
     return (
+
+<>
+      <h1>hello world </h1>
    
+      <img src="" alt="" />
 
-
+</>
 
 
 

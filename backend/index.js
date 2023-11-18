@@ -14,6 +14,7 @@ const app = express();
 
 //used to access data from frontend 
 app.use(express.json());
+app.use(express.static("uploads"));
 
 
 
@@ -36,3 +37,9 @@ ConnectDB();
 app.listen(3000,()=>{
     console.log("server active on port 3000");
 })
+
+
+
+
+
+
