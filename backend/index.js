@@ -6,6 +6,8 @@ import LoginRouter from "./Routes/LoginRoute.js";
 import UploadImgRouter from "./Routes/UploadImg.js";
 import getImgRouter from "./Routes/GetImg.js";
 import UnderGoingProjectsRouter from "./Routes/UploadUnderGoingProjects.js";
+import GetUnderGoingProjectsRouter from "./Routes/GetUnderGoingProjects.js";
+
 
 
 
@@ -19,6 +21,7 @@ app.use(express.static("uploads"));
 
 
 
+
 //router function implement 
 app.use("/api",HomeRouter);
 app.use("/api/SignUp",RegisterRouter);
@@ -26,6 +29,9 @@ app.use("/api/SignIn",LoginRouter);
 app.use("/api/UploadImg",UploadImgRouter);
 app.use("/api/GetImg",getImgRouter);
 app.use("/api/AddUnderGoingProjects",UnderGoingProjectsRouter);
+
+app.use("/api/GetUnderGoingProjects",GetUnderGoingProjectsRouter);
+
 
 
 

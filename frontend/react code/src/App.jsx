@@ -4,11 +4,13 @@ import HomeFinal from './pages/HomeFinal'
 import Signup from './pages/Signup'
 import SignIn from './pages/SignIn'
 import AddUnderGoingProjects from './pages/AddUnderGoingProjects'
+import UnderGoingProjects from './pages/UnderGoingProjects'
 
 
 
 // import PhotoUpload from './pages/TestPages/PhotoUpload'
 // import PhotoDelete from './pages/TestPages/PhotoDelete'
+
 
 
 
@@ -21,7 +23,7 @@ const App = () => {
         <Route path = '/signin' element={<SignIn/>}/>
         <Route path='/' element={<HomeFinal/>}/>
         <Route path='/addundergoingprojects' element={<AddUnderGoingProjects/>}/>
-
+        <Route path='/undergoingprojects' element={<UnderGoingProjects/>}/>
         {/* <Route path='/photoupload' element={<PhotoUpload/>} />
          <Route path='/photodelete' element={<PhotoDelete/>}/> */}
                   

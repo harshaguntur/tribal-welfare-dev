@@ -2,7 +2,7 @@ import '../css/Home1.css'
 
 const Home1 = () => {
   return (
-    <>
+    <div>
     
     <header>
     <div className="rectangle">
@@ -55,7 +55,7 @@ const Home1 = () => {
 
 
     
-    </>
+    </div>
    
   )
 }

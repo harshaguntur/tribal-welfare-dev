@@ -12,7 +12,7 @@ const ImageScehma = new mongoose.Schema(
 );
 
 
-const UnderGoingProjects = mongoose.model('UnderGoingProjects',ImageScehma);
+const UnderGoingDB = mongoose.model('UnderGoingProjects',ImageScehma);
 
 
-export default UnderGoingProjects; 
+export default UnderGoingDB; 
