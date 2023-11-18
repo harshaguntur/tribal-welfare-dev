@@ -5,11 +5,12 @@ import ConnectDB from "./DB/ConnectDB.js";
 import LoginRouter from "./Routes/LoginRoute.js";
 import UploadImgRouter from "./Routes/UploadImg.js";
 import getImgRouter from "./Routes/GetImg.js";
+import UnderGoingProjectsRouter from "./Routes/UploadUnderGoingProjects.js";
 
 
 
 const app = express();
-
+                   
 // middleware
 
 //used to access data from frontend 
@@ -24,6 +25,8 @@ app.use("/api/SignUp",RegisterRouter);
 app.use("/api/SignIn",LoginRouter);
 app.use("/api/UploadImg",UploadImgRouter);
 app.use("/api/GetImg",getImgRouter);
+app.use("/api/AddUnderGoingProjects",UnderGoingProjectsRouter);
+
 
 
 

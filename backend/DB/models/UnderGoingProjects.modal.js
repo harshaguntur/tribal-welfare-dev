@@ -12,7 +12,7 @@ const ImageScehma = new mongoose.Schema(
 );
 
 
-const Image = mongoose.model('ImageDetails',ImageScehma);
+const UnderGoingProjects = mongoose.model('UnderGoingProjects',ImageScehma);
 
 
-export default Image; 
+export default UnderGoingProjects; 
