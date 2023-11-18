@@ -3,6 +3,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import HomeFinal from './pages/HomeFinal'
 import Signup from './pages/Signup'
 import SignIn from './pages/SignIn'
+import AddUnderGoingProjects from './pages/AddUnderGoingProjects'
 
 
 
@@ -19,7 +20,7 @@ const App = () => {
         <Route path='/signup' element={<Signup/>}/>
         <Route path = '/signin' element={<SignIn/>}/>
         <Route path='/' element={<HomeFinal/>}/>
-
+        <Route path='/addundergoingprojects' element={<AddUnderGoingProjects/>}/>
 
         {/* <Route path='/photoupload' element={<PhotoUpload/>} />
          <Route path='/photodelete' element={<PhotoDelete/>}/> */}

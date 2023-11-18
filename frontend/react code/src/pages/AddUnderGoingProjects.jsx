@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const UnderGoingProjects = () => {
+const AddUnderGoingProjects = () => {
   const [image, setImage] = useState();
 
   const submitImage = async (e) => {
@@ -32,4 +32,4 @@ const UnderGoingProjects = () => {
     </>
   );
 };
-export default UnderGoingProjects;
+export default AddUnderGoingProjects;
