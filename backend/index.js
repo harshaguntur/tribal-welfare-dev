@@ -4,6 +4,7 @@ import RegisterRouter from "./Routes/RegisterRoute.js"
 import ConnectDB from "./DB/ConnectDB.js";
 import LoginRouter from "./Routes/LoginRoute.js";
 import UploadImgRouter from "./Routes/UploadImg.js";
+import getImgRouter from "./Routes/GetImg.js";
 
 
 
@@ -21,6 +22,7 @@ app.use("/api",HomeRouter);
 app.use("/api/SignUp",RegisterRouter);
 app.use("/api/SignIn",LoginRouter);
 app.use("/api/UploadImg",UploadImgRouter);
+app.use("/api/GetImg",getImgRouter);
 
 
 

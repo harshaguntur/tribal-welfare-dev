@@ -5,13 +5,13 @@ const ImageScehma = new mongoose.Schema(
    image : String 
     },
 
-    {
-        collation : "ImageDetails",
-    }
+    // {
+    //     collation : "ImageDetails",
+    // }
 
 );
 
 
-const Image = mongoose.model("ImageDetails",ImageScehma);
+const Image = mongoose.model('ImageDetails',ImageScehma);
 
 export default Image; 

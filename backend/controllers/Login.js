@@ -1,11 +1,12 @@
 import express from 'express';
 import User from '../DB/models/user.model.js';
-
+import Image from '../DB/models/image.model.js';
 
 export const Login = async (req,res)=>{
     const {email,password} = req.body;
     console.log(email);
     try {
+
        const user =  await User.findOne(({email}));
       if(password === user.password){
             res.send({
