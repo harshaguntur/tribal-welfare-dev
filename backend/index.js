@@ -7,6 +7,8 @@ import UploadImgRouter from "./Routes/UploadImg.js";
 import getImgRouter from "./Routes/GetImg.js";
 import UnderGoingProjectsRouter from "./Routes/UploadUnderGoingProjects.js";
 import GetUnderGoingProjectsRouter from "./Routes/GetUnderGoingProjects.js";
+import ShopItemRouter from "./Routes/UploadShopItem.js";
+import GetShopItemsRouter from "./Routes/GetShopItems.js";
 
 
 
@@ -29,9 +31,9 @@ app.use("/api/SignIn",LoginRouter);
 app.use("/api/UploadImg",UploadImgRouter);
 app.use("/api/GetImg",getImgRouter);
 app.use("/api/AddUnderGoingProjects",UnderGoingProjectsRouter);
-
 app.use("/api/GetUnderGoingProjects",GetUnderGoingProjectsRouter);
-
+app.use("/api/AddShopItem",ShopItemRouter);
+app.use("/api/GetShopItems",GetShopItemsRouter);
 
 
 

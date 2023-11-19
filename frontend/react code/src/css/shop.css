@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Product-img{
+    height: 40vh;
+    width: 40vh;
+    border-radius: 3vh;
+}
+
+
+.allProducts{
+    display: flex;
+
+    width: 100vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Product-div{
+
+    width: 33.33333333%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Buy-btn{
+   
+    border: 1px black solid ;
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+
+
+.Product-Name {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.Product-Price{
+    font-family: 'Mulish', sans-serif;
+}
+
+.hi{
+    display: flex;
+    font-size: 4vw;
+    justify-content: center;
+    align-items: center;
+}
