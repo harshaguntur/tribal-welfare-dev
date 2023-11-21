@@ -18,16 +18,16 @@ const HomeFinal = () => {
     <div className="outerdiv">
 
 
-   <div className="blue">
+
       <Home1/>
-   </div>
+   
 
 
 
 
-   <div className="red">
+
     <Approch/>
-   </div>
+
 
 
    <div className="green">

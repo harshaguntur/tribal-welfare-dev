@@ -1,15 +1,9 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* .approch-outer-div{
+    width: 100vw;
+    height: 100vh;
+    background-color: #BCD1EC;
 }
-
-body{
-    /* Change color according to your background */
-    background-color: #bcd1ec;
-
-}
-
+     
 .rectangle{
     margin-top: 10px;
     margin-left: auto;
@@ -88,7 +82,7 @@ header{
     margin-right: 2%;
     height: 6vh;
     width: 10vw;
-    background-color:white;
+    background-color: #BCD1EC;
     border-top-right-radius:  20px;
     letter-spacing: 2px;
 }
@@ -109,6 +103,12 @@ header{
     margin-top: 1%;
     
 }
+
+.jass {
+    background-color: #BCD1EC;
+}
+
+
 .matter p {
     
     font-size: 4vw;
@@ -132,8 +132,79 @@ header{
 }
 .op p {
     /* padding: 70px 10vh 20vh 8vh; */
-    font-size: 6vh;
+    /* font-size: 6vh;
     float: left;
-    word-spacing: 4px;
+    word-spacing: 4px; */
+
+
+
+
+.approch-outer-div{
+    height: 100vh;
+    width: 100vw;
+    background-color: #BCD1EC;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: end;
+    flex-direction: column;
 }
 
+.approch-container{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    background-color: #BCD1EC;
+    flex-direction: column;
+}
+
+
+.approch-heading {
+    display: flex;
+    background-color: #BCD1EC;
+    width: 100vw;
+
+}
+
+.approch-heading h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 1vh;
+    font-size: medium;
+    width: 9vw;
+    background-color: #F3F3EB;
+    border-radius: 0 2vh 0 0;
+    height: 2vw;
+}
+
+.approch-matter{
+    display: flex;
+    background-color: #BCD1EC;
+    font-size: 3.5vw;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 2vw 0 ;
+}
+
+.approch-matter p {
+    background-color: #BCD1EC;
+}
+
+.approch-sub-matter{
+    display: flex;
+    background-color: #1B2F26;
+    height: 70vh;
+
+}
+
+.approch-sub-matter-container{
+    display: flex;
+    background-color: #1B2F26;
+}
+
+.approch-sub-matter-container p {
+    background-color: #1B2F26;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
