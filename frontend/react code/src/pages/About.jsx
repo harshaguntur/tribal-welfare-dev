@@ -18,7 +18,7 @@ const About = () => {
                 communities. We believe that every<br/>
                 individual deserves access to basic<br/>
                 necessities like food, clean water, and<br/>
-                education.</p>
+                education.</p>   
             
             <p>Vana Ekam is a one-of-a-kind website<br/></p>
         </div>

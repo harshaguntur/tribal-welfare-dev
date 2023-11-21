@@ -32,7 +32,7 @@ const Approch = () => {
 
 
     <div className="approch-heading">
-    <h2>APPROCH</h2>
+    <h2>APPROACH</h2>
     </div>
 
 

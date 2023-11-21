@@ -245,7 +245,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-
+    height: 150vh;
     background-color: #F3F3EB;
 
  }
@@ -414,6 +414,7 @@ header{
     display: flex;
     background-color: #F3F3EB;
     flex-direction: column;
+    font-family: 'Noto Sans Glagolitic', sans-serif;
 }
 
 .bottom a {
@@ -428,6 +429,7 @@ header{
     color: white;
     height: 3.8vw;
     border-radius: 5vw;
+
 }
 
 
