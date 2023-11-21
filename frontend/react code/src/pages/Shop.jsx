@@ -18,6 +18,9 @@ const Shop = () => {
   useEffect(()=>{
     getData();
   },[]);
+
+
+  
  
  
  const path = "http://localhost:3000/ShopItems/"

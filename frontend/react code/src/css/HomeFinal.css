@@ -5,23 +5,5 @@ boby{
 }
 
 
-.blue{
-    width: 100vw;
-    display: flex;
-    /* background-color: blue; */
-    height: 100vh;
-}
-.red{
-    width: 100vw;
-    /* background-color: red; */
-    background-color: #bcd1ec;
-    height: 100vh;
-}
-.green{
-    width: 100vw;
-    /* background-color: green; */
-    background-color: #1B2F26;
 
-    height: 100vh;
-}
 

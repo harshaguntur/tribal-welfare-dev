@@ -4,14 +4,11 @@
     box-sizing: border-box;
 }
 
-/* body{
+body{
     /* Change color according to your background */
-    /* background-color: #bcd1ec; */
+    background-color: #bcd1ec;
 
-
-} */
-
-
+}
 
 .rectangle{
     margin-top: 10px;

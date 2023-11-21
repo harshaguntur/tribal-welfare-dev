@@ -9,7 +9,7 @@ import About from "./About"
 const HomeFinal = () => {
   return (
 
-    <>
+    <>   
     
 
     {/* <Home1/>        
@@ -17,14 +17,23 @@ const HomeFinal = () => {
     {/* <Approch/> */}
     <div className="outerdiv">
 
+
    <div className="blue">
       <Home1/>
    </div>
+
+
+
+
    <div className="red">
     <Approch/>
    </div>
+
+
    <div className="green">
+
     <About/>
+
    </div>
 
     </div>

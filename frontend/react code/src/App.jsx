@@ -21,7 +21,7 @@ const App = () => {
    <BrowserRouter>
       <Routes>
 
-        <Route path='/signup/:id' element={<Signup/>}/>
+        <Route path='/signup/' element={<Signup/>}/>
         <Route path = '/signin' element={<SignIn/>}/>
         <Route path='/' element={<HomeFinal/>}/>
         <Route path='/addundergoingprojects' element={<AddUnderGoingProjects/>}/>
