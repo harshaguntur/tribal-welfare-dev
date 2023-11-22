@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+address{
+    margin-left: 10%;
+    text-align: left;
+    width: 70%;
+    height: fit-content;
+    padding: 5vh 5vw;
+    border: 2px solid green;
+}
+
+h3{
+    font-size: 1.75vw;
+    font-weight: normal;
+}
+
+input{
+    height: 4vh;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.inline{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.aligning input{
+    width: 95%;
+}
+
+.aligning{
+    width: 100%;
+    flex-direction: column;
+}
+
+.outrow{
+    margin-top: 3vw;
+    margin-left: 10%;
+}
+
+#cb{
+    width: 2.75vw;
+    height: 2.75vh;
+}
+
+label{
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+
+button{
+    background-color: green;
+    color: black;
+    width: 15vw;
+    height: 6vh;
+    font-weight: bold;
+    margin-top: 2%;
+    border-radius: 0.5vw;
+    font-size: 1.25vw;
+}
+
+#Country{
+    height: 4vh;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#State{
+    height: 5vh;
+    width: 95%;
+    border: 1px solid black;
+}
