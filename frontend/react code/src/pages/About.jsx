@@ -69,7 +69,7 @@ const About = () => {
         <img src="../../public/tribal photos/Screenshot 2023-11-21 at 9.05.05 PM.png" alt="" />
         </div>
     </div>
-
+  
 
 
 

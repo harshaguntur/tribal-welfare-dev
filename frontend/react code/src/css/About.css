@@ -194,13 +194,13 @@ header{
 .about-container-2{
     display: flex;
 }
-
+   
 .about-container-2-sub-div{
     display: flex;
     background-color: #1B2F27;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 2.5vh;
+    font-size: 2.6vh;
 
 }
 
