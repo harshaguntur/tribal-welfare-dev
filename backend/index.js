@@ -9,6 +9,7 @@ import UnderGoingProjectsRouter from "./Routes/UploadUnderGoingProjects.js";
 import GetUnderGoingProjectsRouter from "./Routes/GetUnderGoingProjects.js";
 import ShopItemRouter from "./Routes/UploadShopItem.js";
 import GetShopItemsRouter from "./Routes/GetShopItems.js";
+import GetProductByIdRouter from "./Routes/GetProductById.js";
 
 
 
@@ -34,6 +35,7 @@ app.use("/api/AddUnderGoingProjects",UnderGoingProjectsRouter);
 app.use("/api/GetUnderGoingProjects",GetUnderGoingProjectsRouter);
 app.use("/api/AddShopItem",ShopItemRouter);
 app.use("/api/GetShopItems",GetShopItemsRouter);
+app.use("/api/GetProductById",GetProductByIdRouter);
 
 
 
