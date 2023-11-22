@@ -12,29 +12,17 @@ const HomeFinal = () => {
     <>   
     
 
-    {/* <Home1/>        
-    <br /> */}
-    {/* <Approch/> */}
+    
     <div className="outerdiv">
+{/* 
+    <input type="button" onClick="document.getElementById('middle').scrollIntoView()" placeholder="hello"/> */}
 
 
-
-      <Home1/>
+      <Home1 />
    
-
-
-
-
-
     <Approch/>
 
-
-
-   <div className="green">
-
     <About/>
-
-   </div>
 
     </div>
 
