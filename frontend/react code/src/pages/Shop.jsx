@@ -3,10 +3,12 @@ import "../css/shop.css"
 
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { useNavigate,Link } from "react-router-dom";
 
 
 const Shop = () => {
  
+  const navigate = useNavigate();
   const [data,setData] = useState([]);
   
   const getData = async ()=>{
@@ -39,9 +41,11 @@ const Shop = () => {
 
 
     {
-      data.map((ele,)=>{
+      data.map((ele)=>{
          return <div className="Product-div" key={ele._id}>
-            <img src={path + ele.image} alt="harsha" className="Product-img"/>
+          <Link to={`/productpage/${ele._id}`}>
+            <img src={path + ele.image}  alt="harsha" className="Product-img"/>
+          </Link>
             <h4 className="Product-Name">{ele.ProductName}</h4>
             <h5 className="Product-Price">₹{ele.ProductPrice}</h5>
             <button className="Buy-btn">Buy Now</button>
