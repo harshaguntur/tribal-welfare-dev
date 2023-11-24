@@ -9,14 +9,14 @@ const PhotoUpload = () => {
     const formData = new FormData();
     formData.append("image", image);
     console.log(formData);
-    const result = await axios.post("/api/UploadImg", formData, {
+      await axios.post("/api/UploadImg", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     });
   };
 
   const onInputChange = (e) => {
     console.log(e.target.files[0]);
-    setImage(e.target.files[0]);
+    setImage(e.target.files[0]); 
   };
 
   return (

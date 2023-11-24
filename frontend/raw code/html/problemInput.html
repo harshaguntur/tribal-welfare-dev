@@ -1,0 +1,73 @@
+<!--Problem Input-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pic Uploader</title>
+    <link href="../css/problemInput.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="rectangle">
+            <div class="navbar">
+            <nav>
+                <!-- logo pic -->
+                <img src="../../react code/public/images/Vana.jpeg" alt="logo" class="logo">
+
+                <h1 style="margin-left: -17%;">VANA EKAM</h1>
+                <img src="">
+                <ul  class="nav__links">
+                    <li> <a href="#">Services</a> </li>
+                    <li> <a href="#">About</a> </li>
+                    <li> <a href="#">FAQ</a> </li>
+                    <a href="#" class="button">Contact Us</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="body2">
+        <div class="text">
+            <h3>You can be a <br>helping hand</h3>
+            <p>Are you an organization?<br>
+            You could be a strength to the people who are running their life with various circumstances and difficulties. If you have seen the problems that they are facing but need some help to resolve them? Kindly post the problems here and do the needful.</p>
+            <input type="submit" value="Read More" class="Readbutton"/> 
+        </div>
+        <div class="image">
+            <div class="display_image"><img src="../../react code/public/images/fullLogo.jpeg" id="pic1"></div>
+            <h4>Only image.png or image.jpg accepted</h4>
+            <label for="image_input">Upload Image</label>
+            <input type="file" id="image_input" accept="image/png, image/jpg">
+            <script src="problemInput.js"></script>
+
+            <textarea placeholder="Please convey the problem description here..." class="description"></textarea>
+            <input type="submit" value="Submit" class="Problem_submit"/>
+        </div>
+        <div class="status">
+            <div class="raised">
+                <p class="font">00</p><h3>Problem raised</h3>
+            </div>
+            <div class="solved">
+                <p class="font">00</p><h3>Problem solved</h3>
+            </div>
+            <div class="organizations">
+                <p class="font">00</p><h3>Organization Partners</h3>
+            </div>
+        </div>
+        <div class="out">
+            <div class="social">
+                <a href="#"><img src="#" alt="Instagram"/></a><br> 
+                <a href="#"><img src="#" alt="Facebook"/></a><br>
+                <a href="#"><img src="#" alt="X"/></a><br>
+                <a href="#"><img src="#" alt="LinkedIn"/></a>
+            </div>
+            <h3>@TeamVanaEkam</h3>
+            <p>&copy; 2035 by Vana Ekam, Made by VanaEkam &trade;</p>
+        </div>
+    </div>
+</body>
+</html>

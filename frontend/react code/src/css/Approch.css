@@ -1,0 +1,220 @@
+/* .approch-outer-div{
+    width: 100vw;
+    height: 100vh;
+    background-color: #BCD1EC;
+}
+     
+.rectangle{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 1200px;
+    background-color:white;
+    border-radius: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 3px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__links{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.button{
+    margin-right: -25px;
+    background-color: #000000;
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+button a{
+    font-size: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: -25px;
+}
+.approach {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Grotesk';
+    font-size: 0.7vw;
+    text-align: center;
+    margin-top: 18px;
+    margin-left: 90px;
+    margin-right: 2%;
+    height: 6vh;
+    width: 10vw;
+    background-color: #BCD1EC;
+    border-top-right-radius:  20px;
+    letter-spacing: 2px;
+}
+.approach a{
+    font-size: 10px;
+}
+.approach h2{
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+.matter{
+    font-family: 'Space Grotesk';
+    color: #000000;
+    float: left;
+    height: 10vh;
+    margin-left: 6vw;
+    margin-top: 1%;
+    
+}
+
+.jass {
+    background-color: #BCD1EC;
+}
+
+
+.matter p {
+    
+    font-size: 4vw;
+}
+
+.op {
+   float: right;
+   margin-top: 25vh;
+   margin-left: 6vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    border-top-right-radius:90px;
+    font-family: 'Space Grotesk',sans-serif;
+    background-color: #1b2f26;
+    color: #ffffff;
+    line-height: 9vh;
+   
+}
+.op p {
+    /* padding: 70px 10vh 20vh 8vh; */
+    /* font-size: 6vh;
+    float: left;
+    word-spacing: 4px; */
+
+
+
+
+.approch-outer-div{
+    height: 100vh;
+    width: 100vw;
+    background-color: #BCD1EC;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: end;
+    flex-direction: column;
+}
+
+.approch-container{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    background-color: #BCD1EC;
+    flex-direction: column;
+}
+
+
+.approch-heading {
+    display: flex;
+    background-color: #BCD1EC;
+    width: 100%;
+
+
+}
+
+.approch-heading h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 1vh;
+    font-size: medium;
+    width: 9vw;
+    background-color: #F3F3EB;
+    border-radius: 0 2vh 0 0;
+    height: 2vw;
+}
+
+.approch-matter{
+    display: flex;
+    background-color: #BCD1EC;
+    font-size: 3.5vw;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 2vw 0 ;
+}
+
+.approch-matter p {
+    background-color: #BCD1EC;
+}
+
+.approch-sub-matter{
+    display: flex;
+    background-color: #1B2F26;
+    height: 70vh;
+    justify-content: center;
+    border-radius: 0 19.5vh 0 0;
+    align-items: center;
+}
+
+.approch-sub-matter-container{
+    display: flex;
+    background-color: #1B2F26;
+    font-size: 2.5vw;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.approch-sub-matter-container p {
+    background-color: #1B2F26;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+
+}

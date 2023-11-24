@@ -1,0 +1,288 @@
+/* body{
+    background-color: #1B2F26;
+} 
+
+.rectangle{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 1200px;
+    background-color:white;
+    border-radius: 50px;
+}
+  
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 3px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__links{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.button{
+    margin-right: -25px;
+    background-color: #000000;
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+button a{
+    font-size: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: -25px;
+}
+
+.container1{
+    width: 33%;
+    position: relative;
+}
+
+.about{
+    margin-top: 8%;
+    margin-left: 15%;
+    height: 1.5em;
+    width: 5em;
+    background-color: white;
+    padding-top: 4px;
+    text-align: center;
+    border-top-right-radius: 10px;
+}
+
+.container1 h1{
+    font-size: 4em;
+    padding-left: 13%;
+    margin-top: 4%;
+    font-weight: lighter;
+    color: white;
+}
+
+.container2{
+    width: 33%;
+    position: relative;
+}
+
+.container2 p{
+    margin-top: 20%;
+    font-size: larger;
+    color: white;
+    padding-left: 10%;
+    line-height: 1.5;
+}
+
+.body1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body1 img{
+    height: 20em;
+    width: 20em;
+    margin-top: 12%;
+    margin-left: 5%;
+} */
+
+
+
+
+
+.About-outer-div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+.about-container-1{
+    height: 100%;
+    width: 33.3333333%;
+    background-color: #1B2F27;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.about-container-2{
+    height: 100%;
+    width: 33.3333333%;
+    background-color: #1B2F27;
+}
+
+.about-container-3{
+    background-color: #1B2F27;
+    height: 100%;
+    width: 33.3333333%;
+    display: flex;
+    align-items: end;
+}
+
+
+.about-container-1-sub-div{
+    width: 70%;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #1B2F27;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10vw;
+}
+
+.about-container-1-sub-div p {
+    color: black;
+    display: flex;
+    background-color: white;
+    display: flex;
+    width: 6vw;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 0 1.5vh 0 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    letter-spacing: 0.2vh;
+
+}
+
+.about-container-1-sub-div h1 {
+
+    color: white;
+    display: flex;
+    background-color: #1B2F27;
+    margin-top: 2vw;
+    font-size: 4.5vw;
+    font-weight: 100;
+}
+
+.about-container-2{
+    display: flex;
+}
+   
+.about-container-2-sub-div{
+    display: flex;
+    background-color: #1B2F27;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2.6vh;
+    height: 100%;
+
+}
+
+.about-container-2-matter-1{
+    display: flex;
+    background-color: #1B2F27;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 100;
+    line-height: 4vh;
+    word-spacing: 1vh;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.about-container-2-matter-1 p {
+    display: flex;
+    background-color: #1B2F27;
+    color: white;
+
+
+}
+.about-container-2-matter-2 p {
+    display: flex;
+    background-color: #1B2F27;
+    color: white;
+
+
+}
+
+.about-container-2-matter-2{
+    display: flex;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #1B2F27;
+    font-weight: 100;
+    word-spacing: 1vh;
+    height: 50%;
+    line-height: 4vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.about-container-3-sub-div{
+    background-color: #1B2F27;
+    width: 100%;
+    display: flex;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+.navbar-outer-div{
+    display: flex;
+    float: left;
+    width: 100vw;
+    background-color: #F3F3EB;
+}
+
+.navbar-outer-div nav {
+    display: flex;
+
+}
+
+#navbar-logo{
+    height: 7vw;
+    width: 7vw;
+}
+
+
+.navbar-right{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

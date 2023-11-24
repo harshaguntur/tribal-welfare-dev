@@ -1,13 +1,17 @@
 import axios from "axios";
 import "../css/SignUp.css";
-
+import { useParams } from "react-router-dom";
 import { Link, NavLink ,useNavigate} from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 
 const Signup = () => {
   const navigate = useNavigate();
+
+ 
+
+
   const [username, SetUsername] = useState();
   const [email, SetEmail] = useState();
   const [password, SetPassword] = useState();

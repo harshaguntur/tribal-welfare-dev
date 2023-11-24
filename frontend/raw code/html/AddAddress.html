@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddAddress</title>
+    <link href="../css/AddAddress.css" rel="stylesheet">
+ </head>
+<body>
+    <h1>Add a new address</h1>
+
+    <address>
+        <h3>Country/Region</h3>
+        <form>
+            <select id="Country" name="Country">
+                <option value="Ind" selected>India</option>
+                <option value="Nep">Nepal</option>
+                <option value="bhu">Bhutan</option>
+            </select>
+        </form>
+        <h3>Full Name (First and Last name)</h3>
+        <input type="text" autocomplete="off" >
+        <h3>Phone Number</h3>
+        <input type="number" autocomplete="off" >
+        <h3>Address</h3>
+        <input type="text" placeholder="Street address or P.O. Box"><br><br>
+        <input type="text" placeholder="Apt, suit, unit, building, floor, etc.">
+        
+        <div class="inline">
+            <div class="aligning">
+                <h3>City</h3>
+                <input type="text">
+            </div>
+            <div class="aligning">
+                <h3>State</h3>
+                <form>
+                    <select id="State" name="State">
+                        <option value="Def" selected disabled>Select</option>
+                        <option value="AP">Andhra pradesh</option>
+                        <option value="TEL">Telangana</option>
+                    </select>
+                </form>
+            </div>
+            <div class="aligning">
+                <h3>ZIP Code</h3>
+                <input type="number">
+            </div>
+        </div>
+    </address>
+    
+    <div class="outrow">
+        <input type="checkbox" id="cb">
+        <label for="cb">Make this my default address</label><br>
+        <button>Use this address</button>
+    </div>
+       
+</body>
+</html>

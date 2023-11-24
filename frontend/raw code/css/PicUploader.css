@@ -1,0 +1,147 @@
+body{
+    /* Change color according to your background */
+    background-color:whitesmoke;
+} 
+
+.rectangle{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 1200px;
+    background-color:white;
+    border-radius: 50px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto ;
+    padding: 3px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav__links{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.button{
+    margin-right: -25px;
+    background-color: #000000;
+    color: white;
+    border:566666cm;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+button a{
+    font-size: 17px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: -25px;
+}
+
+.body2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text{
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.text h3{
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.text p{
+    margin-top: -5%;
+    font-size: larger;
+}
+
+.Readbutton{
+    height: 5vh;
+    width: 9vw;
+    background-color: black;
+    color: white;
+    padding: 10 5px;
+    margin-top: 5%;
+}
+
+.image{
+    width: 40%;
+}
+
+.display_image{
+    width: 70%;
+    height: 50%;
+    border: 2px dashed black;
+    background-position: center;
+    background-size: cover;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.display_image img{
+    width: 90%;
+    height: 90%;
+    padding: 5% 5%;
+}
+
+.image h4{
+    margin-left: 10%;
+    color: darkgray;
+    font-weight: lighter;
+}
+
+#image_input{
+    display: none;
+}
+
+label{
+    margin-left: 10%;
+    margin-top: 2%;
+    display: block;
+    height: 4vh;
+    width: 10vw;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 4px;
+}
