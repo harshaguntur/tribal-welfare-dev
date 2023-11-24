@@ -1,5 +1,10 @@
-#danger{
+/* #danger{
     width: 50%;
+    position: relative;
+    float: right;
+} */
+
+#toast{
     position: relative;
     float: right;
 }
