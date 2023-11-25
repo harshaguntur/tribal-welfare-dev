@@ -139,7 +139,8 @@
 .para{
     font-family: 'Space Grotesk';
     font-size: 44px;
-    width: 18vw;
+    width: 20vw;
+    float: left;
     margin: 3vh 0 0 5vw ;
 }
 .para_pic{
@@ -152,6 +153,31 @@
 }
 .down
 {
-    width: 25vw;
+    width: 70vw;
+    height: 70vh;
 }
-
+.a1{
+    float: right;
+    cursor: pointer;
+}
+.collapsible{
+    max-width: 450px;
+    overflow: hidden;
+    font-weight: 500;
+}
+.collapsible label{
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0, 0,0,.1), 0 4px 11px 0 rgba(0, 0, 0,.08);
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 4px;
+}
+.collapsible label:after{
+    content: "";
+    position: absolute;
+    
+}
