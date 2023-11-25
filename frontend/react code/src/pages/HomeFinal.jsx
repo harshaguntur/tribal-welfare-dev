@@ -2,6 +2,7 @@ import Approch from "./Approch"
 import Home1 from "./Home1"
 import "../css/HomeFinal.css"
 import About from "./About"
+import Navbar from "./Navbar"
 
 
 
@@ -9,7 +10,9 @@ import About from "./About"
 const HomeFinal = () => {
   return (
 
-    <>   
+    <>  
+
+
     
 
     
@@ -17,8 +20,9 @@ const HomeFinal = () => {
 {/* 
     <input type="button" onClick="document.getElementById('middle').scrollIntoView()" placeholder="hello"/> */}
 
+    <Navbar/>
 
-      <Home1 />
+    <Home1 />
    
     <Approch/>
 
