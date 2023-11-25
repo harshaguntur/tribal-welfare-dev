@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/nav2.css" rel="stylesheet">
+</head>
+<body>
+    <div class="newnav">
+        <header>
+            <nav>
+            <!-- <img src="../../react code/public/tribal photos/navLogo.jpeg" class="logo"> -->
+              <a class="active" href="#Home">Home</a>
+              <a href="#About">About</a>
+              <a href="#Shop">Shop</a>
+              <a href="#FAQ">FAQ</a>
+              <a href="#Contact">Contact</a>
+            </nav>
+          </header>
+    
+          <section id="Home">Home</section>
+          <section id="About">About</section>
+          <section id="Shop">Shop</section>
+          <section id="FAQ">FAQ</section>
+          <section id="Contact">Contact</section>
+    </div>
+    <script>
+        let section = document.querySelectorAll('section');
+        let navLinks = document.querySelectorAll('header nav a');
+
+        window.onscroll = () =>{
+            section.forEach(sec =>{
+                let top = window.scrollY;
+                let offset = sec.offsetTop - 150;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id');
+
+                if(top >= offset && top < offset + height){
+                    navLinks.forEach(links =>{
+                        links.classList.remove('active');
+                        document.querySelector('header nav a[href*='+ id + ']').classList.add('active');
+                    });
+                };
+            });
+        };
+      </script>
+</body>
+</html>
