@@ -3,6 +3,7 @@ import Home1 from "./Home1"
 import "../css/HomeFinal.css"
 import About from "./About"
 import Navbar from "./Navbar"
+import UnderGoingProjects from "./UnderGoingProjects"
 
 
 
@@ -27,6 +28,8 @@ const HomeFinal = () => {
     <Approch/>
 
     <About/>
+
+    <UnderGoingProjects/>
 
     </div>
 
