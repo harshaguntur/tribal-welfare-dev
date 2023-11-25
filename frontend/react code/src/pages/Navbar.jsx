@@ -8,18 +8,18 @@ const Navbar = () => {
     
     <nav>
    <div className="navbar-left">
-   <img src="../../public/images/logo bgremove.png" id="navbar-logo" alt="" />
+   <img src="../../public/tribal photos/8e76ee17-fc3b-4b08-aea8-3dc7c4fa2e64.jpeg" id="navbar-logo" alt="" />
    </div>
 
 
    <div className="navbar-right">
 
+   <NavLink to="/">Home</NavLink>
     <a href="">About</a>
     <a href="">FAQ</a>
     <NavLink to="/shop">shop</NavLink>
     <a href="">Contact Us</a>
-
-
+     
    </div>
 
 

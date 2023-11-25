@@ -18,8 +18,10 @@
 }
 
 #navbar-logo{
-    height: 7vw;
-    width: 7vw;
+
+    height: 5vw;
+    width: 15vw;
+   
 }
 
 
@@ -27,6 +29,12 @@
     width: 30vw;
     display: flex;
     justify-content: space-between;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    color: black;
+
 }
 
 
