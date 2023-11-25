@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.say{
+    font-family: 'Space Grotesk';
+    font-size: 36px;
+    margin-left: 4.5vw;
+    margin-top: 10vh;
+}
+
+.c1{
+    margin-top: 2.7vw;
+    margin-left: -0.1vw;
+    background-color: whitesmoke;
+    width: 18vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.c3{
+    margin-top: 2.7vw;
+    margin-left: -0.1vw;
+    background-color: whitesmoke;
+    width: 18vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.c4{
+    margin-top: 2.7vw;
+    margin-left: -0.1vw;
+    background-color: whitesmoke;
+    width: 18vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.c5{
+    margin-top: 2.7vw;
+    margin-left: -1px;
+    background-color: whitesmoke;
+    width: 18vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.full{
+    display: flex;
+    width: 95vw;
+    flex-direction: row;
+}
+
+.c2{
+    margin-top: 2.7vw;
+    margin-left: -0.1vw;
+    background-color: whitesmoke;
+    width: 18vw;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.box1{
+    padding-top: 5vh;
+    text-align: center;
+    width: 18vw;
+    height: 26.3vh;
+    margin: 3vw 0 0 5vw;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.box2
+{
+    padding-top: 5vh;
+    text-align: center;
+    width: 18vw;
+    height: 26.3vh;
+    margin: 3vw 0 0 0;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.box3{
+    padding-top: 5vh;
+    text-align: center;
+    width: 18vw;
+    height: 26.3vh;
+    margin: 3vw 0 0 0;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.box4{
+    padding-top: 5vh;
+    text-align: center;
+    width: 18vw;
+    height: 26.3vh;
+    margin: 3vw 0 0 0;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.box5{
+    padding-top: 5vh;
+    text-align: center;
+    width: 18vw;
+    height: 26.3vh;
+    margin: 3vw 0 0 0;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.label
+{
+    font-family: 'Space Grotesk';
+    margin: 15vw 0 0 5vw;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 16px;
+    width: 5vw;
+    height: 5vh;
+    padding-top: 1vh;
+}
+.para{
+    font-family: 'Space Grotesk';
+    font-size: 44px;
+    width: 18vw;
+    margin: 3vh 0 0 5vw ;
+}
+.para_pic{
+    margin: 34vh 3vw 0 0;
+    float: right;
+}
+.para_pic .img
+{
+    border-top-left-radius: 200%;
+}
+.down
+{
+    width: 25vw;
+}
+

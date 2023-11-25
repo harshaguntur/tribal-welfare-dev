@@ -24,6 +24,8 @@ const ProductPage = () => {
   }, []);
 
   return (
+
+
     <div className="product-page-outer-div">
       <div className="product-page-left">
         <div className="product-page-left-img-container">
@@ -43,17 +45,18 @@ const ProductPage = () => {
 
         <div className="product-page-right-upper-div">
           <h1> {product?.ProductName}</h1>
+          <h5 id="Code">SKU: 0012</h5>
           <h3>₹{product?.ProductPrice}</h3>
           <h5>Quantity</h5>
-          <input type="number" name="" id="" />
+          <input type="number" name="" id="" /><br></br>
           <button>Add to Cart</button>
-          <button>Buy Now</button>
+          <button id="Buy">Buy Now</button>
         </div>
 
 
 
         <div className="product-page-right-lower-div">
-          <h3>PRODUCT INFO</h3>
+          <h3>PRODUCT INFO</h3><br></br>
           <p>{product?.ProductDescription}</p>
         </div>
 

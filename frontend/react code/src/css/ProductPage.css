@@ -9,7 +9,7 @@
   width: 100vw;
   display: flex;
 }
-
+  
 .product-page-left {
   height: 100%;
   width: 50%;
@@ -39,8 +39,41 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 50%;
+    height: 65%;
     justify-content: space-around;
+    padding: 13% 5%;
 }
 
 
+#Code{
+  margin-top: -1vw;
+}
+
+.product-page-right-upper-div input{
+  width: 4vw;
+  height: 5vh;
+  margin-top: -0.5vw;
+  padding-left: 1vw;
+}
+
+.product-page-right-upper-div button{
+  width: 30vw;
+  height: 5.5vh;
+  margin: -1vh 0vw;
+  border-radius: 0.5vw;
+}
+
+#Buy{
+  background-color: black;
+  color: white;
+  margin-top: 0.5vw;
+}
+
+.product-page-right-lower-div{
+  margin-top: -2vw;
+  padding-left: 5%;
+}
+
+.product-page-right-lower-div p{
+  font-weight: bold
+}
