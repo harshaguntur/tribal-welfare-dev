@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Donation-outer-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.Donation-heading{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -4,7 +4,8 @@ import "../css/HomeFinal.css"
 import About from "./About"
 import Navbar from "./Navbar"
 import UnderGoingProjects from "./UnderGoingProjects"
-
+import GetInTouch from "./GetInTouch"
+import Donation from "./Donation"
 
 
 
@@ -18,8 +19,7 @@ const HomeFinal = () => {
 
     
     <div className="outerdiv">
-{/* 
-    <input type="button" onClick="document.getElementById('middle').scrollIntoView()" placeholder="hello"/> */}
+
 
     <Navbar/>
 
@@ -29,7 +29,17 @@ const HomeFinal = () => {
 
     <About/>
 
+    <div>
+
     <UnderGoingProjects/>
+    </div>
+
+
+    <Donation/>
+
+    <GetInTouch/>
+
+
 
     </div>
 
