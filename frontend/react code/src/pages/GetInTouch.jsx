@@ -1,4 +1,4 @@
-import "../css/getInTouch.css";
+// import "../css/getInTouch.css";
 
 const GetInTouch = () => {
   return (
