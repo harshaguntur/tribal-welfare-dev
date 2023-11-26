@@ -37,7 +37,7 @@ const HomeFinal = () => {
 
     <Donation/>
 
-    <GetInTouch/>
+    
 
 
 
