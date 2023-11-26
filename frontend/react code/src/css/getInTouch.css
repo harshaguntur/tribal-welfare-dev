@@ -7,6 +7,196 @@
 .GetInTouch-outer-div{
     width: 100vw;
     height: 100vh;
-    /* background-color: black; */
-    
+}
+
+.rect1{ 
+    top: 13%;
+    left: 5%;
+    height: 120%;
+    width: 90%;
+    background-color: rgb(133, 133, 204);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bgrect{
+    margin-top: 10%;
+    height: 135vh;
+    width: 100%;
+    background-color: rgb(18, 59, 36);
+    align-items: center;
+}
+
+.head{
+    margin-top: 10%;
+    left: 8%;
+    width: 30%;
+    height: 35%;
+    position: absolute;
+    background-color: rgb(133, 133, 204);
+}
+
+.head h3{
+    font-size: 6vw;
+    background-color: rgb(133, 133, 204);
+}
+
+.bgrect1{
+    margin-top: 3px;
+    height: 13%;
+    width: calc(100% - 16px);
+    background-color: rgb(18, 59, 36);
+    position: absolute;
+}
+
+.tables{
+    padding-top: 2%;
+    top: 135%;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.fullLogo{
+    margin-left: -5%;
+    height: 120%;
+}
+
+.td1{
+    height: 120%;
+    color: white;
+    line-height: 2;
+}
+
+.td2{
+    height: 120%;
+    color: white;
+    line-height: 2;
+}
+
+.td3{
+    height: 120%;
+    color: white;
+    line-height: 2;
+}
+
+.td4{
+    height: 120%;
+    color: white;
+    line-height: 2;
+}
+
+.td1 a{
+    color: white;
+}
+
+.td4 a{
+    color: white;
+}
+
+.out{
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.inputs{
+    margin-left: 40%;
+    height: 117vh;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(133, 133, 204);
+}
+
+.input1{
+    height: 20vh;
+    width: 45%;
+    padding-left: 10%;
+    padding-top: 10vh;
+    background-color: rgb(133, 133, 204);
+} 
+
+.inputs h3{
+    background-color: rgb(133, 133, 204);
+}
+
+
+.input2{
+    height: 20vh;
+    width: 45%;
+    padding-top: 10vh;
+    background-color: rgb(133, 133, 204);
+} 
+
+.input3{
+    height: 20vh;
+    width: 45%;
+    padding-left: 10%;
+    background-color: rgb(133, 133, 204);
+} 
+
+.input4{
+    height: 20vh;
+    width: 45%;
+    background-color: rgb(133, 133, 204);
+} 
+
+.input5{
+    height: 30vh;
+    width: 100%;
+    padding-left: 10%;
+    margin-top: -8%;
+    background-color: rgb(133, 133, 204);
+}
+
+.inputss{
+    outline: 0;
+    border-width: 0 0 3px;
+    width: 75%;
+    padding: 12px 20px;
+    background-color: rgb(133, 133, 204);
+    border-color: blueviolet;
+}
+
+.input5 input{
+    width: 88%;
+}
+
+.help{
+    font-size: larger;
+    margin-top: -18%;
+    padding-left: 10%;
+    background-color: rgb(133, 133, 204);
+}
+
+.help a{
+    color: #000000;
+    text-decoration: none;
+    background-color: rgb(133, 133, 204);
+}
+
+.help_links a{
+    text-decoration: none;
+}
+
+.quote{
+    margin-top: -10%;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    height: 7%;
+    width: 75%;
+    border-radius: 30px;
+    font-family: 'Lalo',sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2%;
+    text-decoration: none;
 }
