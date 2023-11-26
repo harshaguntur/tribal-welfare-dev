@@ -9,6 +9,7 @@
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
 }
 
 .Donation-heading{
@@ -18,4 +19,53 @@
     justify-content: center;
     align-items: center;
 }
+
+.donation-container-div{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.problem-container{
+    border: 1px solid black;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+}
+
+.problem-image-div{
+    width: 100%;
+    height: 100%;
+}
+
+.problem-img-container{
+    width: 100%;
+    height: 35%;
+}
+
+.problem-matter-sub-div{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.problem-matter-sub-sub-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.problem-matter-sub-sub-div button {
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    height: 15%;
+}
+
+
 

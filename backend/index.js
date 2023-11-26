@@ -10,6 +10,8 @@ import GetUnderGoingProjectsRouter from "./Routes/GetUnderGoingProjects.js";
 import ShopItemRouter from "./Routes/UploadShopItem.js";
 import GetShopItemsRouter from "./Routes/GetShopItems.js";
 import GetProductByIdRouter from "./Routes/GetProductById.js";
+import AddDonationRouter from "./Routes/AddDonation.js";
+import GetDonationProblemsRouter from "./Routes/GetDonationProblems.js";
 
 
 
@@ -36,6 +38,8 @@ app.use("/api/GetUnderGoingProjects",GetUnderGoingProjectsRouter);
 app.use("/api/AddShopItem",ShopItemRouter);
 app.use("/api/GetShopItems",GetShopItemsRouter);
 app.use("/api/GetProductById",GetProductByIdRouter);
+app.use("/api/addDonation",AddDonationRouter);
+app.use("/api/GetDonationProblems",GetDonationProblemsRouter);
 
 
 

@@ -3,7 +3,7 @@ import axios from "axios";
 
 const AddShopItem = () => {
   
-  const [img,setImg] = useState();
+  const [img,setImg] = useState(); 
   const [productName , setProductName] = useState();
   const [prodcutPrice, setProductPrice] = useState();
   const [prodcutDescription, setProductDescription] = useState();
@@ -14,16 +14,16 @@ const AddShopItem = () => {
    setImg(e.target.files[0]);
   }
   const handelNameChange = (e)=>{
-    console.log(e.target.value);
+
    setProductName(e.target.value);
   }
   const handelPriceChange = (e)=>{
-    console.log(e.target.value);
+
 
    setProductPrice(e.target.value);
   }
   const handelDescriptionChange = (e)=>{
-    console.log(e.target.value);
+
 
    setProductDescription(e.target.value);
   }
