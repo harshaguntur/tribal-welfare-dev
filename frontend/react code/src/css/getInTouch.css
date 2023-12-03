@@ -1,70 +1,16 @@
-.rectangle{
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 70px;
-    width: 1200px;
-    background-color:white;
-    border-radius: 50px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-li {
-    list-style: none;
-    display: inline-block;
+
+.GetInTouch-outer-div{
+    width: 100vw; 
+    height: 100vh;
 }
 
-li a {
-    color: black;
-    font-size: 20px;
-    margin-right: 25px;
-}
 
-nav{
-    display: flex;
-    width: 84%;
-    margin: auto ;
-    padding: 3px 0;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar ul li a{
-    text-decoration: none;
-    color: #000000;
-}
-
-.nav__links{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 2%;
-}
-
-.button{
-    margin-right: -25px;
-    background-color: #000000;
-    color: white;
-    border:566666cm;
-    text-decoration: none;
-    border: 2px solid transparent;
-    padding: 10px 25px;
-    border-radius: 30px;
-}
-
-button a{
-    font-size: 17px;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo{
-    height: 60px;
-    width: 60px;
-    margin-left: -25px;
-}
 
 .rect1{ 
     top: 13%;
@@ -88,15 +34,17 @@ header{
 }
 
 .head{
-    margin-top: -2%;
+    margin-top: 10%;
     left: 8%;
     width: 30%;
     height: 35%;
     position: absolute;
+    background-color: rgb(133, 133, 204);
 }
 
 .head h3{
     font-size: 6vw;
+    background-color: rgb(133, 133, 204);
 }
 
 .bgrect1{
@@ -155,11 +103,6 @@ header{
     color: white;
 }
 
-a:link{
-    size: 20px;
-    text-decoration: none;
-}
-
 .out{
     color: white;
     text-align: center;
@@ -167,11 +110,12 @@ a:link{
 }
 
 .inputs{
-    margin-left: 35%;
+    margin-left: 40%;
     height: 117vh;
     width: 65%;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(133, 133, 204);
 }
 
 .input1{
@@ -179,41 +123,49 @@ a:link{
     width: 45%;
     padding-left: 10%;
     padding-top: 10vh;
+    background-color: rgb(133, 133, 204);
 } 
+
+.inputs h3{
+    background-color: rgb(133, 133, 204);
+}
+
 
 .input2{
     height: 20vh;
     width: 45%;
     padding-top: 10vh;
+    background-color: rgb(133, 133, 204);
 } 
 
 .input3{
     height: 20vh;
     width: 45%;
     padding-left: 10%;
-    margin-top: -13%;
+    background-color: rgb(133, 133, 204);
 } 
 
 .input4{
     height: 20vh;
     width: 45%;
-    margin-top: -13%;
+    background-color: rgb(133, 133, 204);
 } 
 
 .input5{
     height: 30vh;
     width: 100%;
     padding-left: 10%;
-    margin-top: -13%;
+    margin-top: -8%;
+    background-color: rgb(133, 133, 204);
 }
 
-input{
+.inputss{
     outline: 0;
     border-width: 0 0 3px;
     width: 75%;
     padding: 12px 20px;
     background-color: rgb(133, 133, 204);
-    border-color: blueviolet; 
+    border-color: blueviolet;
 }
 
 .input5 input{
@@ -224,10 +176,17 @@ input{
     font-size: larger;
     margin-top: -18%;
     padding-left: 10%;
+    background-color: rgb(133, 133, 204);
 }
 
 .help a{
     color: #000000;
+    text-decoration: none;
+    background-color: rgb(133, 133, 204);
+}
+
+.help_links a{
+    text-decoration: none;
 }
 
 .quote{
@@ -235,11 +194,12 @@ input{
     margin-left: 10%;
     background-color: black;
     color: white;
-    height: 5%;
+    height: 7%;
     width: 75%;
     border-radius: 30px;
     font-family: 'Lalo',sans-serif;
     text-align: center;
     font-weight: 600;
     padding-top: 2%;
+    text-decoration: none;
 }

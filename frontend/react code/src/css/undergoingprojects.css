@@ -7,11 +7,28 @@
 .undergoing-projects-outer-div{
     width: 100vw;
     height: 75vh;
-}
+} 
 
 .undergoing-projects-project-image{
     width: 60vw;
     height: 30vw;
-    margin-left: 6vh;
+    margin-left: 6vh; 
 }
 
+.undergoing-projects-img-slider{
+    width: 100vw;
+    display: flex;
+    overflow-x: auto;
+}
+
+
+
+
+.undergoing-projects-heading{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0 ;
+    font-size: 2vw;
+}

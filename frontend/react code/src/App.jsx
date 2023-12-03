@@ -8,6 +8,7 @@ import UnderGoingProjects from './pages/UnderGoingProjects'
 import Shop from './pages/Shop'
 import AddShopItem from './pages/AddShopItem'
 import ProductPage from './pages/ProductPage'
+import AddDonation from './pages/addDonation'
 
 
 
@@ -30,7 +31,7 @@ const App = () => {
         <Route path='/shop' element={<Shop/>}/>
         <Route path='/addshopitem' element={<AddShopItem/>}/>
         <Route path='/productpage/:id' element={<ProductPage/>}/>
-
+    <Route path='/adddonation' element={<AddDonation/>} />
         
         {/* <Route path='/photoupload' element={<PhotoUpload/>} />
          <Route path='/photodelete' element={<PhotoDelete/>}/> */}
