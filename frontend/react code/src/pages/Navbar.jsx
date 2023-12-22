@@ -7,6 +7,7 @@ const Navbar = () => {
    <div className="navbar-outer-div">
     
     <nav>
+      
    <div className="navbar-left">
    <img src="../../public/tribal photos/navLogo.jpeg" id="navbar-logo" alt="" />
    </div>
@@ -21,7 +22,7 @@ const Navbar = () => {
     <a href="">Contact Us</a>
      
    </div>
-
+   
 
 
 

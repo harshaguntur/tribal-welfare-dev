@@ -52,6 +52,7 @@ const AddShopItem = () => {
     return (
     <div className="outer-div">
 
+      <h1>Add An Item to the Shop</h1>
 
         <form onSubmit={handelFormSubmit}>
 

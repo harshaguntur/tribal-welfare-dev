@@ -10,13 +10,27 @@
     float: left;
     width: 100vw;
     background-color: #F3F3EB;
+
+
+
 }
+
 
 .navbar-outer-div nav {
     display: flex;
+    border-radius: 0 10vh 10vh 0;
+
 
 }
 
+.navbar-left{
+    border-radius: 0 10vh 10vh 0;
+}
+
+.navbar-left img {
+
+}
+  
 #navbar-logo{
 
     height: 5vw;
@@ -29,7 +43,11 @@
     width: 30vw;
     display: flex;
     justify-content: space-between;
+    border-radius: 0 50%;
 }
+
+
+
 
 .navbar-right a {
     text-decoration: none;
