@@ -58,11 +58,16 @@ cd ../client && npm install
 ```
 
 ### Running the app
-# Start backend
+Start backend
+```bash
 cd server && npm run dev
+```
 
 # Start frontend
+```bash
 cd client && npm start
+```
 
 ### 📜 License
--This project is licensed under the MIT License. See the LICENSE file for details.
+
+This project is licensed under the MIT License. See the LICENSE file for details.
