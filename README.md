@@ -1,49 +1,55 @@
-TribalConnect
+#VanaEkam
+VanaEkam is a full‑stack MERN (MongoDB, Express, React, Node.js) web application created to empower tribal communities. It enables secure donations and supports local e‑commerce by connecting donors, community members, and vendors, driving economic growth and social impact.
 
-TribalConnect is a full‑stack MERN (MongoDB, Express, React, Node) web application designed to support tribal communities by facilitating donations and local goods e‑commerce. The platform connects donors, community members, and small local vendors to increase economic opportunities and direct social impact through secure, easy‑to‑use technology.
+🚀 Features:
+💳 Donation flow (one‑time & recurring) with Razorpay integration
+🛍️ E‑commerce module: product listings, shopping cart & checkout
+🔐 Secure authentication with role‑based access (Donor, Vendor, Admin)
+📦 Vendor dashboard for product & order management
+🛠️ Admin panel to monitor donations, approve products & manage users
+📜 Order history, receipts & reporting for impact tracking
+📱 Fully responsive design for desktop & mobile
 
-Table of Contents
-
-Key Features
-
-Tech Stack
-
-Architecture Overview
-
-Key Features
-
-Donation flow (one‑time and recurring) with payment gateway integration
-
-E‑commerce for local goods: product listings, cart, checkout
-
-Secure user authentication and role‑based access (Donor, Vendor, Admin)
-
-Vendor dashboard for inventory and order management
-
-Admin panel to manage users, monitor donations and product approvals
-
-Order history, receipts, and simple reporting for impact tracking
-
-Responsive UI for desktop & mobile
-
-Tech Stack
-
-Frontend: React (Create React App / Vite), React Router, Context / Redux 
-
+🛠️ Tech Stack:
+Frontend: React, React Router, Redux/Context API
 Backend: Node.js, Express.js
+Database: MongoDB with Mongoose
+Payments: Razorpay API
+Authentication: JWT (access + refresh tokens), bcrypt
 
-Database: MongoDB 
+🏗️ Architecture:
+Client (React): User interface, product browsing, checkout, authentication flows.
+Server (Express): REST APIs for users, products, donations & admin operations; payment webhooks.
+Database (MongoDB): Stores users, products, orders, donations, and vendor profiles.
+Third‑Party Services: Razorpay for payment processing.
 
-Payments: Razorpay
+⚡ Getting Started:
+Prerequisites-
+Node.js v16+
+MongoDB (local or Atlas)
+Razorpay account (for payments)
 
-Authentication: JWT (access + refresh tokens) and bcrypt for password hashing
+Installation-
+# Clone repo
+git clone https://github.com/your-username/vanaekam.git
+cd vanaekam
 
-Architecture Overview
+# Install server dependencies
+cd server && npm install
 
-Client (React) — UI, authentication flows, product browsing, cart, checkout. Talks to backend via REST API.
+# Install client dependencies
+cd ../client && npm install
 
-Server (Node + Express) — REST API for authentication, products, orders, donations, admin endpoints. Handles payment webhooks.
+# Start backend
+cd server && npm run dev
 
-Database (MongoDB) — Users, Products, Orders, Donations, Transactions, VendorProfiles.
+# Start frontend
+cd client && npm start
 
-Third‑party services — Razorpay for payments
+📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+👩‍💻 Maintainer
+Your Name — G Dhilleswara Rao
+
+
