@@ -13,8 +13,22 @@ It enables **secure donations** and supports **local e-commerce** by connecting 
 - 📦 Vendor dashboard for product & order management  
 - 🛠️ Admin panel to monitor donations, approve products & manage users  
 - 📜 Order history, receipts & reporting for impact tracking  
-- 📱 Fully responsive design for desktop & mobile  
+- 📱 Fully responsive design for desktop & mobile
 
+---
+
+ 🌍 Impact Vision
+
+VanaEkam is more than just a platform it is a step toward on inclusive digital empowerment.
+
+By enabling direct support and market access, the platform aims to:
+- Preserve and promote tribal craftsmanship  
+- Eliminate middlemen exploitation  
+- Provide sustainable income opportunities  
+- Build transparency and trust in donations  
+- Encourage conscious and ethical consumerism  
+
+Every transaction on VanaEkam contributes to a larger social change.
 ---
 
 ## 🛠️ Tech Stack
